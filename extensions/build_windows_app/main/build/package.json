@@ -1,0 +1,14 @@
+
+        {
+            "name": "loverepeat",
+            "version": "0.1.0",
+            "main": "build.js",
+            "description": "没有描述",
+            "author": "ffgdgrrr",
+        
+            "scripts": {
+                "package-win": "electron-packager . LoveRepeat --platform=win32 --out=D:/MyCocosProject/LoveRepeat/build/ --arch=x64 --app-version=1.0.0 --electronVersion=v36.3.2 --icon=C:/Users/ffgdgrrr/Pictures/64.ico --electron-zip-dir=C:/Users/ffgdgrrr/Downloads/electron-20.0.0/ --asar --overwrite"
+            }
+            
+        }
+        

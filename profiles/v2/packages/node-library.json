@@ -1,0 +1,26 @@
+{
+  "__version__": "1.0.1",
+  "custom": [
+    {
+      "name": "i18n:node-library.groups.custom",
+      "items": [
+        {
+          "type": "cc.Prefab",
+          "value": "c62b809b-e6ac-40b6-b3ea-deb7eee34df9",
+          "name": "dialog_galgame",
+          "assetUuid": "c62b809b-e6ac-40b6-b3ea-deb7eee34df9",
+          "icon": "packages://node-library/static/images/ui-prefab/default.png",
+          "unlinkPrefab": true
+        },
+        {
+          "type": "cc.Prefab",
+          "value": "f2e7eec5-8d8f-42e0-a50e-0ed8f4701359",
+          "name": "Player",
+          "assetUuid": "f2e7eec5-8d8f-42e0-a50e-0ed8f4701359",
+          "icon": "packages://node-library/static/images/ui-prefab/default.png",
+          "unlinkPrefab": true
+        }
+      ]
+    }
+  ]
+}

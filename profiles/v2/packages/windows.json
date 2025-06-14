@@ -1,0 +1,25 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "windows",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "windows",
+      "startScene": "6531e975-3e76-4bea-a80e-6a473a486405",
+      "debug": true
+    },
+    "taskOptionsMap": {
+      "1746934054564": {
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "targetPlatform": "x64",
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.5"
+  }
+}

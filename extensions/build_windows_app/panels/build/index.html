@@ -1,0 +1,125 @@
+<div class="ScrollView">
+        
+    <div class="SVcontent">
+
+        <div class="div_title">
+            <ui-label value="一键发布Windows插件"></ui-label>
+        </div>
+
+        
+        
+        
+        <!--基础设置-->
+        <div class="div_jcSet">
+            <ui-label value="基础设置"></ui-label>
+        </div>
+        
+        
+        <!--项目名称-->
+        <div class="div_name">
+        <ui-label value="项目名称"></ui-label>
+        <ui-input value="Windows", class="name"></ui-input>
+        </div>
+        
+        <!--electron版本号-->
+        <div class="div_v">
+            <ui-label value="electron版本号"></ui-label>
+            <ui-input value="", class="v"></ui-input>
+        </div>
+        
+        
+        <!--Web路径-->
+        <div class="div_web_lj">
+        <ui-label value="Web路径"></ui-label>
+        <ui-file type="directory",protocols="file,project" , class="web_lj"></ui-file>
+        </div>
+        
+        
+        <!--输出路径-->
+        <div class="div_shuchu_lj">
+        <ui-label value="输出路径"></ui-label>
+        <ui-file type="directory",protocols="file,project", class="shuchu_lj"></ui-file>
+        </div>
+        
+        
+        
+        
+        <!--高级设置-->
+        <div class="div_gjSet">
+        <ui-label value="高级设置"></ui-label>
+        </div>
+        
+        
+        <div class="div_asar">
+        <ui-label value="asar(是否加密)"></ui-label>
+        <ui-checkbox value="false", class="asar"></ui-checkbox>
+        </div>
+        
+        
+        <div class="div_isNode">
+        <ui-label value="是否打包项目里的node模块"></ui-label>
+        <ui-checkbox value="false", class="isNode"></ui-checkbox>
+        </div>
+        
+        
+        <div class="div_isCover">
+        <ui-label value="是否覆盖原有的包"></ui-label>
+        <ui-checkbox value="false", class="isCover"></ui-checkbox>
+        </div>
+        
+        
+        <div class="div_app_version">
+        <ui-label value="应用版本号"></ui-label>
+        <ui-input value="1.0.0", class="app_version"></ui-input>
+        </div>
+        
+        
+        <div class="div_icon">
+        <ui-label value="应用图标路径"></ui-label>
+        <ui-file type="file", class="icon"></ui-file>
+        </div>
+        
+        
+        <div class="div_jg">
+        <ui-label value="架构"></ui-label>
+        <ui-select value="2", class="jg">
+            <option value="1">ia32</option>
+            <option value="2">x64</option>
+            <!-- <option value="3">armv7l</option> -->
+            <option value="4">arm64</option>
+            <!-- <option value="5">mips64el</option> -->
+        </ui-select>
+        </div>
+        
+        
+        <div class="div_log">
+        <ui-label value="输出log"></ui-label>
+        <ui-textarea value="test", class="log"></ui-textarea>
+        </div>
+        
+        
+        <div class="div_build_cmd_label">
+        <ui-label value="最终打包指令"></ui-label>
+        </div>
+        <div class="div_build_cmd_input">
+        <ui-input value="这个输入框的内容不需要修改！不要动！", class="build_cmd"></ui-input>
+        </div>
+        
+        
+        
+        
+        <div class="div_btn">
+        <ui-button class="open_icon_path">打开图标目录</ui-button>
+        <ui-button class="open_web_path">打开web目录</ui-button>
+        <ui-button class="open_shuchu_path">打开输出目录</ui-button>
+        <ui-button class="open_chajian_path">打开插件目录</ui-button>
+        <ui-button class="recover_default_data">恢复默认</ui-button>
+        </div>
+        
+        
+        <div class="div_buildBtn">
+        <ui-button class="green", id="build_btn">一键发布</ui-button>
+        </div>
+
+    </div>
+</div>
