@@ -1,0 +1,12 @@
+{
+    "systemInfo": {
+        "arch": "x64",
+        "cpu": "AMD Ryzen 3 3100 4-Core Processor              ",
+        "version": "Windows 10 Pro"
+    },
+    "sceneListMap": {
+        "3cbe16e1-145f-427e-88cd-e637e63d106c": "C:\\Users\\ffgdgrrr\\Desktop\\rpg\\assets\\scene\\start.scene",
+        "6edc0892-5ff5-4a96-a778-8d0fabe5df65": "C:\\Users\\ffgdgrrr\\Desktop\\rpg\\assets\\scene\\test.scene"
+    },
+    "deviceMd5": "d1b977c0af850a32dba930ca3904654b"
+}

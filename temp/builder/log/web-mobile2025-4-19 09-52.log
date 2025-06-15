@@ -1,0 +1,1314 @@
+2025-6-15 17:53:22-debug: =================================== build Task (web) Start ================================
+2025-6-15 17:53:22-debug: Start build task, options:{"name":"dialogtest","platform":"web-mobile","buildPath":"project://extensions/build_windows_app/main/build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"packAutoAtlas":true,"startScene":"6531e975-3e76-4bea-a80e-6a473a486405","outputName":"web","scenes":[{"url":"db://assets/scene/interaction.scene","uuid":"92c92657-8e31-4922-b122-c0bfed9610c7","inBundle":false},{"url":"db://assets/scene/setting.scene","uuid":"37d42d3b-336e-48f8-b8b8-c751ebaf77cf","inBundle":false},{"url":"db://assets/scene/start.scene","uuid":"3cbe16e1-145f-427e-88cd-e637e63d106c","inBundle":false},{"url":"db://assets/scene/startMenu.scene","uuid":"6531e975-3e76-4bea-a80e-6a473a486405","inBundle":false},{"url":"db://assets/scene/test.scene","uuid":"6edc0892-5ff5-4a96-a778-8d0fabe5df65","inBundle":false}],"web-desktop":[],"packages":{"cocos-service":{"configID":"e65d04","services":[]},"web-mobile":{"orientation":"auto","embedWebDebugger":true,"__version__":"1.0.1"}},"__version__":"1.3.5","web-mobile":[]}
+2025-6-15 17:53:23-debug: Process: heapTotal 239.34MB heapUsed 214.99MB rss 188.93MB
+2025-6-15 17:53:22-debug: Build with Cocos Creator 3.7.4
+2025-6-15 17:53:23-debug: cocos-service:(onBeforeBuild) start...0%
+2025-6-15 17:53:23-debug: // ---- build task cocos-service：onBeforeBuild ----
+2025-6-15 17:53:24-debug: // ---- build task cocos-service：onBeforeBuild ---- (305ms)
+2025-6-15 17:53:24-debug: cocos-service:(onBeforeBuild) in 305 ms1%
+2025-6-15 17:53:24-debug: // ---- build task scene：onBeforeBuild ----
+2025-6-15 17:53:24-debug: Process: heapTotal 236.57MB heapUsed 204.20MB rss 183.92MB
+2025-6-15 17:53:24-debug: scene:(onBeforeBuild) start...1%
+2025-6-15 17:53:24-debug: // ---- build task scene：onBeforeBuild ---- (12ms)
+2025-6-15 17:53:24-debug: Start lock asset db...2%
+2025-6-15 17:53:24-debug: scene:(onBeforeBuild) in 12 ms2%
+2025-6-15 17:53:24-log: Asset DB is paused with build!
+2025-6-15 17:53:24-debug: Query all assets info in project
+2025-6-15 17:53:24-debug: BuildAssetLibrary query-assets with assets 674
+2025-6-15 17:53:24-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-6-15 17:53:24-debug:   Number of all scenes: 5
+2025-6-15 17:53:24-debug:   Number of all scripts: 66
+2025-6-15 17:53:24-debug:   Number of other assets: 460
+2025-6-15 17:53:24-debug: web-mobile:(onAfterInit) start...2%
+2025-6-15 17:53:24-debug: // ---- build task web-mobile：onAfterInit ----
+2025-6-15 17:53:24-debug: Process: heapTotal 236.57MB heapUsed 206.46MB rss 183.98MB
+2025-6-15 17:53:24-debug: // ---- build task web-mobile：onAfterInit ---- (48ms)
+2025-6-15 17:53:24-debug: web-mobile:(onAfterInit) in 48 ms3%
+2025-6-15 17:53:24-debug: cocos-service:(onAfterInit) start...3%
+2025-6-15 17:53:24-debug: // ---- build task cocos-service：onAfterInit ----
+2025-6-15 17:53:24-debug: Process: heapTotal 236.57MB heapUsed 206.86MB rss 184.40MB
+2025-6-15 17:53:24-debug: // ---- build task cocos-service：onAfterInit ---- (187ms)
+2025-6-15 17:53:24-debug: cocos-service:(onAfterInit) in 187 ms4%
+2025-6-15 17:53:24-debug: 加载刷新项目脚本 start4%
+2025-6-15 17:53:24-debug: // ---- build task 加载刷新项目脚本 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 236.57MB heapUsed 206.94MB rss 184.75MB
+2025-6-15 17:53:24-debug: reload all scripts.
+2025-6-15 17:53:24-debug: Incremental keys: 
+2025-6-15 17:53:24-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-6-15 17:53:24-groupCollapsed: Invalidate all modules
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ce\cee638a986ad8fae09398db255647defcaa6612a.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ce\cee638a986ad8fae09398db255647defcaa6612a.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js" loaded.
+2025-6-15 17:53:24-debug: Invalidating 'pack:///chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js'
+2025-6-15 17:53:24-groupEnd: Invalidate all modules
+2025-6-15 17:53:24-groupCollapsed: Imports all modules
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\45\4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\45\4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/45/4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\39\39156f0cfb4061e0ef8b0dbe14e2522be69da006.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\39\39156f0cfb4061e0ef8b0dbe14e2522be69da006.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/39/39156f0cfb4061e0ef8b0dbe14e2522be69da006.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register ElectronAPI
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\59\5929793fc7d0b3e35b5b13e378981a9578c90136.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\59\5929793fc7d0b3e35b5b13e378981a9578c90136.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\be\be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\be\be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\e1\e124bb0702789d0ed907bd9cd07e42461f2eb1d5.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\e1\e124bb0702789d0ed907bd9cd07e42461f2eb1d5.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\de\de05a9640ee0aaca483be38d8395e02e951d4452.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\de\de05a9640ee0aaca483be38d8395e02e951d4452.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\63\63c25c517e65836cf3e5112559c2be132eaee81d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\63\63c25c517e65836cf3e5112559c2be132eaee81d.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7a\7ae8c55f58a4f31e727031b278827996d43ca505.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7a\7ae8c55f58a4f31e727031b278827996d43ca505.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\34\346812cc5da6f59f898c44081d9a51cf56948648.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\34\346812cc5da6f59f898c44081d9a51cf56948648.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\18\18b83e9c6faf5c3e317f51cb21c88f19fe97c61c.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\18\18b83e9c6faf5c3e317f51cb21c88f19fe97c61c.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c8\c816585e3ee77df5fbf4578dc4d7471566eb85a4.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c8\c816585e3ee77df5fbf4578dc4d7471566eb85a4.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register dialogLocal
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/7a/7ae8c55f58a4f31e727031b278827996d43ca505.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/18/18b83e9c6faf5c3e317f51cb21c88f19fe97c61c.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register dialog_galgame
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/de/de05a9640ee0aaca483be38d8395e02e951d4452.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register stateUI
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/c8/c816585e3ee77df5fbf4578dc4d7471566eb85a4.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register settingData
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/63/63c25c517e65836cf3e5112559c2be132eaee81d.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register bag
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/34/346812cc5da6f59f898c44081d9a51cf56948648.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register inventory
+2025-6-15 17:53:24-debug: [[Executor]] Register localStoarge
+2025-6-15 17:53:24-debug: [[Executor]] Register State
+2025-6-15 17:53:24-debug: [[Executor]] Register dialogLocalSet
+2025-6-15 17:53:24-debug: [[Executor]] Register interaction
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/e1/e124bb0702789d0ed907bd9cd07e42461f2eb1d5.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register Player
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\a6\a6ade9b9962673ecea93623410e66dfec6ffb5c5.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\a6\a6ade9b9962673ecea93623410e66dfec6ffb5c5.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/a6/a6ade9b9962673ecea93623410e66dfec6ffb5c5.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register PlayerLocalData
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\85\859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\85\859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register ChangeKey
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\2f\2f6eda023c12876140cf571d93025017187e9212.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\2f\2f6eda023c12876140cf571d93025017187e9212.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register LockFPS
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/2f/2f6eda023c12876140cf571d93025017187e9212.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\81\811e968b07c564bb049058e0f2e0f9cd646eed02.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\81\811e968b07c564bb049058e0f2e0f9cd646eed02.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register MenuUIContorl
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/81/811e968b07c564bb049058e0f2e0f9cd646eed02.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f3\f300dc8a499fe86f8e6a1b4adb413615b419cb81.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f3\f300dc8a499fe86f8e6a1b4adb413615b419cb81.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7c\7cd2f0635e0d53a0a876fdae6b8c4380b57855a7.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7c\7cd2f0635e0d53a0a876fdae6b8c4380b57855a7.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register dataNode
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/7c/7cd2f0635e0d53a0a876fdae6b8c4380b57855a7.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/f3/f300dc8a499fe86f8e6a1b4adb413615b419cb81.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register SaveOrReadNodeContorl
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\0b\0bf4ee05607d03a2413466208fbcf753d4a59e83.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\0b\0bf4ee05607d03a2413466208fbcf753d4a59e83.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/0b/0bf4ee05607d03a2413466208fbcf753d4a59e83.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register SceneContorl
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\99\994f1ede2348eece3670f0a9b1ca2ab756c9ac0b.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\99\994f1ede2348eece3670f0a9b1ca2ab756c9ac0b.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register back
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/99/994f1ede2348eece3670f0a9b1ca2ab756c9ac0b.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ca\ca04194d1026d1ea7712c85aa21f36a5e10895fd.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ca\ca04194d1026d1ea7712c85aa21f36a5e10895fd.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register backToMenu
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\01\01dfa34cb1d1e57332e1b5fcbad28954332ba180.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\01\01dfa34cb1d1e57332e1b5fcbad28954332ba180.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register codeSave
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/01/01dfa34cb1d1e57332e1b5fcbad28954332ba180.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\75\75f7ecb039806323312da4d4e413438b644452f9.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\75\75f7ecb039806323312da4d4e413438b644452f9.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register EditBoxContorl
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/75/75f7ecb039806323312da4d4e413438b644452f9.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\05\05ae8f825ac5d6b171c13549a8ed9f8b5f8b1ef8.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\05\05ae8f825ac5d6b171c13549a8ed9f8b5f8b1ef8.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register isAutoSave
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/05/05ae8f825ac5d6b171c13549a8ed9f8b5f8b1ef8.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b6\b67d901e900096963ab8aa4567a6848e587bf33d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b6\b67d901e900096963ab8aa4567a6848e587bf33d.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/b6/b67d901e900096963ab8aa4567a6848e587bf33d.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register isfullscreen
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\8d\8d278f09e55cb2ae0fb36c3eeaa7322f04ad5754.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\8d\8d278f09e55cb2ae0fb36c3eeaa7322f04ad5754.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register printLog
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/8d/8d278f09e55cb2ae0fb36c3eeaa7322f04ad5754.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\eb\eb1910dcc4355c874c1adb2d64d764459cabaa74.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\eb\eb1910dcc4355c874c1adb2d64d764459cabaa74.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/eb/eb1910dcc4355c874c1adb2d64d764459cabaa74.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register read
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ee\ee7d7884be830363f7621e12f183f6662c85d18d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ee\ee7d7884be830363f7621e12f183f6662c85d18d.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register reset
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ee/ee7d7884be830363f7621e12f183f6662c85d18d.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c7\c7b372867eb4154685a84a4b556d9d49fda8d94f.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c7\c7b372867eb4154685a84a4b556d9d49fda8d94f.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register videoPlayerContorl
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/c7/c7b372867eb4154685a84a4b556d9d49fda8d94f.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c2\c230abf6af5e77d9c5df6fd829cdfea3fbebd3c7.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c2\c230abf6af5e77d9c5df6fd829cdfea3fbebd3c7.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register GuiYuMiddleSchoolVideo
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/c2/c230abf6af5e77d9c5df6fd829cdfea3fbebd3c7.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\5b\5b41d3e7de068191fce547496e7ebc634dcf49af.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\5b\5b41d3e7de068191fce547496e7ebc634dcf49af.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register closeComputer
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/5b/5b41d3e7de068191fce547496e7ebc634dcf49af.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\6b\6b2e422ebfefc7f28d60e451497b958102204a8a.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\6b\6b2e422ebfefc7f28d60e451497b958102204a8a.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register openComputer
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/6b/6b2e422ebfefc7f28d60e451497b958102204a8a.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\4e\4eb82e5554aca2f95a7e9b3e7cd064d5ab532f15.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\4e\4eb82e5554aca2f95a7e9b3e7cd064d5ab532f15.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register schoolComputerScreen
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/4e/4eb82e5554aca2f95a7e9b3e7cd064d5ab532f15.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ed\eda19f4bbcc5f00b40b5a0ba48d20ebbc3b4fdc1.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ed\eda19f4bbcc5f00b40b5a0ba48d20ebbc3b4fdc1.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register video
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ed/eda19f4bbcc5f00b40b5a0ba48d20ebbc3b4fdc1.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\1b\1bad4de0bceb2f80100cc9645e324a867f5b7653.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\1b\1bad4de0bceb2f80100cc9645e324a867f5b7653.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register chair
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/1b/1bad4de0bceb2f80100cc9645e324a867f5b7653.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\95\95c384c5182b521db4508f7d098073421a5c522e.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\95\95c384c5182b521db4508f7d098073421a5c522e.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register pickChair
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/95/95c384c5182b521db4508f7d098073421a5c522e.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\56\56fc7b7501df354542b7f614b3468cc3c5fa4b07.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\56\56fc7b7501df354542b7f614b3468cc3c5fa4b07.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register time
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/56/56fc7b7501df354542b7f614b3468cc3c5fa4b07.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\64\64cc48c4b6f3b9a8eb1adfbfc2454d53e5afc051.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\64\64cc48c4b6f3b9a8eb1adfbfc2454d53e5afc051.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/64/64cc48c4b6f3b9a8eb1adfbfc2454d53e5afc051.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register saveLocal
+2025-6-15 17:53:24-debug: [[Executor]] Register MapNode
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b0\b011df1280182bbc1c956092dc5e235dd5272ba8.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b0\b011df1280182bbc1c956092dc5e235dd5272ba8.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\0e\0e7a068c822373dc2aa329b05d1434bcac1ad891.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\0e\0e7a068c822373dc2aa329b05d1434bcac1ad891.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\77\776e00354de0898e17c2f010019e2105d1341c09.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\77\776e00354de0898e17c2f010019e2105d1341c09.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\76\7638876ff50ece3f6b811fbdaa5520c74906cd81.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\76\7638876ff50ece3f6b811fbdaa5520c74906cd81.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register tangmian
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/76/7638876ff50ece3f6b811fbdaa5520c74906cd81.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register move
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/77/776e00354de0898e17c2f010019e2105d1341c09.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register wordContorl
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/0e/0e7a068c822373dc2aa329b05d1434bcac1ad891.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register changedScene
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/b0/b011df1280182bbc1c956092dc5e235dd5272ba8.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\40\40d0483f6a8415a0e76477b28c5d914bf17c2ec1.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\40\40d0483f6a8415a0e76477b28c5d914bf17c2ec1.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register nawenhao
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/40/40d0483f6a8415a0e76477b28c5d914bf17c2ec1.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\58\5879914f3d22b88201439cb80d6d5c023b45445b.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\58\5879914f3d22b88201439cb80d6d5c023b45445b.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/58/5879914f3d22b88201439cb80d6d5c023b45445b.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register questionNode
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\20\20f29fa6d09aa2d79fd4b41bde4bc79deab4843d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\20\20f29fa6d09aa2d79fd4b41bde4bc79deab4843d.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register questionNodeInteraction
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/20/20f29fa6d09aa2d79fd4b41bde4bc79deab4843d.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f9\f904f00f4c3a2da7693b6be7913199258044202b.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f9\f904f00f4c3a2da7693b6be7913199258044202b.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\66\665ab0d1c2602f6252a3ccb1a14d2534d5d56f91.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\66\665ab0d1c2602f6252a3ccb1a14d2534d5d56f91.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register mezi
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/66/665ab0d1c2602f6252a3ccb1a14d2534d5d56f91.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/f9/f904f00f4c3a2da7693b6be7913199258044202b.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register canChooseFood
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\83\83ac4c0569d669b18a7de44aa05830f96b975a7c.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\83\83ac4c0569d669b18a7de44aa05830f96b975a7c.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\83\8370334792c98eeb64edc70a1c95abde7b12aa7d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\83\8370334792c98eeb64edc70a1c95abde7b12aa7d.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register foodMake
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/83/8370334792c98eeb64edc70a1c95abde7b12aa7d.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register food
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/83/83ac4c0569d669b18a7de44aa05830f96b975a7c.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7a\7a0a070c5f86484f7e6360df89315daabe1763a2.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\7a\7a0a070c5f86484f7e6360df89315daabe1763a2.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register foodWindows
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/7a/7a0a070c5f86484f7e6360df89315daabe1763a2.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\47\474c0cb3d8708aacd618ae43ad8e3bbdfe041107.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\47\474c0cb3d8708aacd618ae43ad8e3bbdfe041107.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register d25
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/47/474c0cb3d8708aacd618ae43ad8e3bbdfe041107.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ec\ec3e7c9a80e7061c4fc30d031ed58b837bcc6b09.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ec\ec3e7c9a80e7061c4fc30d031ed58b837bcc6b09.js is not in module cache!
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ae\ae847d862d681ed764dac01ebcfa0075793d572e.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ae\ae847d862d681ed764dac01ebcfa0075793d572e.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register introduction
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ae/ae847d862d681ed764dac01ebcfa0075793d572e.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ec/ec3e7c9a80e7061c4fc30d031ed58b837bcc6b09.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register area
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\d0\d0b68655bbe0f1fc9af888fd628e7537d160c5fa.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\d0\d0b68655bbe0f1fc9af888fd628e7537d160c5fa.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register yourPos
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/d0/d0b68655bbe0f1fc9af888fd628e7537d160c5fa.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\57\57eeac3db58969b456f43140a4df5bd6158dec51.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\57\57eeac3db58969b456f43140a4df5bd6158dec51.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register blackFront
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/57/57eeac3db58969b456f43140a4df5bd6158dec51.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\2e\2ec84f566081548548b60ab7c36fab8e7eb150aa.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\2e\2ec84f566081548548b60ab7c36fab8e7eb150aa.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/2e/2ec84f566081548548b60ab7c36fab8e7eb150aa.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register CameraFollow
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f3\f38f09b6ed3bf6f7e8fff11032110bf889705f80.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\f3\f38f09b6ed3bf6f7e8fff11032110bf889705f80.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register chatNode
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/f3/f38f09b6ed3bf6f7e8fff11032110bf889705f80.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\82\82f8394920f69e62b1f8d31a95ea5103bbebb127.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\82\82f8394920f69e62b1f8d31a95ea5103bbebb127.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register dialog_galgame
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/82/82f8394920f69e62b1f8d31a95ea5103bbebb127.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ec\ecbdf908089b0b59be352634bd6c2b0cc5f8b960.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ec\ecbdf908089b0b59be352634bd6c2b0cc5f8b960.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register comic
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ec/ecbdf908089b0b59be352634bd6c2b0cc5f8b960.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c1\c1447506666cfc020e38cab0d2afe91ed82ad4c2.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\c1\c1447506666cfc020e38cab0d2afe91ed82ad4c2.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/c1/c1447506666cfc020e38cab0d2afe91ed82ad4c2.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register SceneList
+2025-6-15 17:53:24-debug: [[Executor]] Register connectScene
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b3\b33baded9b333c1f61b0ee0b902d1e112a3bf9f6.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\b3\b33baded9b333c1f61b0ee0b902d1e112a3bf9f6.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/b3/b33baded9b333c1f61b0ee0b902d1e112a3bf9f6.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register Mask_sLabel
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\74\7422943226c0b4c0a21fc550b77066ad457cc244.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\74\7422943226c0b4c0a21fc550b77066ad457cc244.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register dialog_galgame
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/74/7422943226c0b4c0a21fc550b77066ad457cc244.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\27\272b94c3d9e5ee3ef48b4d2f6270a927b6799568.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\27\272b94c3d9e5ee3ef48b4d2f6270a927b6799568.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register dialog_op
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/27/272b94c3d9e5ee3ef48b4d2f6270a927b6799568.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\5f\5fc72215c97d80300b7e6f4c943a08a6ac9a0f82.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\5f\5fc72215c97d80300b7e6f4c943a08a6ac9a0f82.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register button
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/5f/5fc72215c97d80300b7e6f4c943a08a6ac9a0f82.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\10\10fc004a30f1d6536de5da0dffd9c716181ebb6c.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\10\10fc004a30f1d6536de5da0dffd9c716181ebb6c.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register contact_interaction
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/10/10fc004a30f1d6536de5da0dffd9c716181ebb6c.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\92\9212b833e3152908a95c14492d1ec5825209297e.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\92\9212b833e3152908a95c14492d1ec5825209297e.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register highContactInteraction
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/92/9212b833e3152908a95c14492d1ec5825209297e.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ba\ba8819fb5cc6043c9a9a34ea642320d1b9b595ac.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\ba\ba8819fb5cc6043c9a9a34ea642320d1b9b595ac.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register undo
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/ba/ba8819fb5cc6043c9a9a34ea642320d1b9b595ac.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\4a\4ac935d9f16d3edc66dfa6b8f1fd6db7dc09e931.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\4a\4ac935d9f16d3edc66dfa6b8f1fd6db7dc09e931.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Register scrollWithView
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/4a/4ac935d9f16d3edc66dfa6b8f1fd6db7dc09e931.js" loaded.
+2025-6-15 17:53:24-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\75\75a65522bed6aa9f89ac91db8837012392334e73.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\75\75a65522bed6aa9f89ac91db8837012392334e73.js is not in module cache!
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/75/75a65522bed6aa9f89ac91db8837012392334e73.js" loaded.
+2025-6-15 17:53:24-debug: [[Executor]] Register DebugViewRuntimeControl
+2025-6-15 17:53:24-debug: [[Executor]] Module "pack:///chunks/45/4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js" loaded.
+2025-6-15 17:53:24-groupEnd: Imports all modules
+2025-6-15 17:53:24-debug: // ---- build task 加载刷新项目脚本 ---- (422ms)
+2025-6-15 17:53:24-debug: run build task 加载刷新项目脚本 success in 422 ms √6%
+2025-6-15 17:53:24-debug: 查询 Asset Bundle start6%
+2025-6-15 17:53:24-debug: // ---- build task 查询 Asset Bundle ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 229.38MB rss 216.03MB
+2025-6-15 17:53:24-debug: // ---- build task 查询 Asset Bundle ---- (16ms)
+2025-6-15 17:53:24-debug: run build task 查询 Asset Bundle success in 16 ms √7%
+2025-6-15 17:53:24-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.43MB rss 213.42MB
+2025-6-15 17:53:24-debug: init bundle assets
+2025-6-15 17:53:24-debug: 查询使用的资源以及资源包配置 start7%
+2025-6-15 17:53:24-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-6-15 17:53:24-debug: Number of scenes: 5
+2025-6-15 17:53:24-debug: Start sort share asset in bundle
+2025-6-15 17:53:24-debug: Start sort share asset in bundle internal with assets 20}
+2025-6-15 17:53:24-debug: Start sort share asset in bundle resources with assets 1}
+2025-6-15 17:53:24-debug: Start sort share asset in bundle main with assets 7}
+2025-6-15 17:53:24-debug: Number of assets: 186
+2025-6-15 17:53:24-debug: Number of asset bundle: 3
+2025-6-15 17:53:24-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (65ms)
+2025-6-15 17:53:24-debug: run build task 查询使用的资源以及资源包配置 success in 65 ms √8%
+2025-6-15 17:53:24-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 230.66MB rss 214.35MB
+2025-6-15 17:53:24-debug: sort script group...
+2025-6-15 17:53:24-debug: 整理脚本分组与脚本数据 start8%
+2025-6-15 17:53:24-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2025-6-15 17:53:24-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √9%
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 230.76MB rss 214.20MB
+2025-6-15 17:53:24-debug: 整理纹理压缩任务 start9%
+2025-6-15 17:53:24-debug: // ---- build task 整理纹理压缩任务 ----
+2025-6-15 17:53:24-debug: Number of image-compress task: 0
+2025-6-15 17:53:24-debug: // ---- build task 整理纹理压缩任务 ---- (11ms)
+2025-6-15 17:53:24-debug: run build task 整理纹理压缩任务 success in 11 ms √11%
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 230.92MB rss 214.23MB
+2025-6-15 17:53:24-debug: 初步划分 JSON 合并分组 start11%
+2025-6-15 17:53:24-debug: // ---- build task 初步划分 JSON 合并分组 ----
+2025-6-15 17:53:24-debug: Start sort the json group of bundle(resources)...
+2025-6-15 17:53:24-debug: Number of json group with bundle(internal): 1
+2025-6-15 17:53:24-debug: Start sort the json group of bundle(main)...
+2025-6-15 17:53:24-debug: Number of json group with bundle(resources) 1
+2025-6-15 17:53:24-debug: Number of json group with bundle(main) 5
+2025-6-15 17:53:24-debug: Number of json group: 6
+2025-6-15 17:53:24-debug: // ---- build task 初步划分 JSON 合并分组 ---- (2ms)
+2025-6-15 17:53:24-debug: run build task 初步划分 JSON 合并分组 success in 2 ms √12%
+2025-6-15 17:53:24-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.23MB rss 214.24MB
+2025-6-15 17:53:24-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2025-6-15 17:53:24-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ---- (9ms)
+2025-6-15 17:53:24-debug: run build task 整理合并压缩 Texture2D 的 JSON 数据 success in 9 ms √13%
+2025-6-15 17:53:24-debug: 收集 importMap 信息 start13%
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.35MB rss 214.66MB
+2025-6-15 17:53:24-debug: // ---- build task 收集 importMap 信息 ----
+2025-6-15 17:53:24-debug: // ---- build task 收集 importMap 信息 ---- (1ms)
+2025-6-15 17:53:24-debug: run build task 收集 importMap 信息 success in 1 ms √14%
+2025-6-15 17:53:24-debug: web-mobile:(onBeforeBuildAssets) start...14%
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.43MB rss 214.66MB
+2025-6-15 17:53:24-debug: // ---- build task web-mobile：onBeforeBuildAssets ----
+2025-6-15 17:53:24-debug: // ---- build task web-mobile：onBeforeBuildAssets ---- (1ms)
+2025-6-15 17:53:24-debug: web-mobile:(onBeforeBuildAssets) in 1 ms17%
+2025-6-15 17:53:24-debug: // ---- build task 构建自动图集 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.52MB rss 214.66MB
+2025-6-15 17:53:24-debug: Start collect pack info from bundleds
+2025-6-15 17:53:24-debug: 构建自动图集 start17%
+2025-6-15 17:53:24-debug: // ---- build task 构建自动图集 ---- (1ms)
+2025-6-15 17:53:24-debug: run build task 构建自动图集 success in 1 ms √23%
+2025-6-15 17:53:24-debug: 图片拷贝压缩任务 start23%
+2025-6-15 17:53:24-debug: // ---- build task 图片拷贝压缩任务 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.61MB rss 214.66MB
+2025-6-15 17:53:24-debug: // ---- build task 图片拷贝压缩任务 ---- (1ms)
+2025-6-15 17:53:24-debug: run build task 图片拷贝压缩任务 success in 1 ms √30%
+2025-6-15 17:53:24-debug: 将资源拷贝到指定位置 start30%
+2025-6-15 17:53:24-debug: // ---- build task 将资源拷贝到指定位置 ----
+2025-6-15 17:53:24-debug: Process: heapTotal 258.69MB heapUsed 231.68MB rss 214.67MB
+2025-6-15 17:53:25-group: Handle bundle internal
+2025-6-15 17:53:25-debug: Asset Bundle(internal) handle assets: 20
+2025-6-15 17:53:25-groupEnd: Handle bundle internal
+2025-6-15 17:53:25-group: Handle bundle resources
+2025-6-15 17:53:25-debug: Asset Bundle(resources) handle assets: 7
+2025-6-15 17:53:25-group: Handle bundle main
+2025-6-15 17:53:25-groupEnd: Handle bundle resources
+2025-6-15 17:53:25-debug: Asset Bundle(main) handle assets: 164
+2025-6-15 17:53:25-groupEnd: Handle bundle main
+2025-6-15 17:53:25-debug: // ---- build task 将资源拷贝到指定位置 ---- (151ms)
+2025-6-15 17:53:25-debug: run build task 将资源拷贝到指定位置 success in 151 ms √37%
+2025-6-15 17:53:25-debug: 将分组后的 json 与散文件构建到指定位置 start37%
+2025-6-15 17:53:25-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ----
+2025-6-15 17:53:25-group: Handle all json groups in bundle internal
+2025-6-15 17:53:25-debug: Process: heapTotal 258.94MB heapUsed 232.66MB rss 215.39MB
+2025-6-15 17:53:25-group: handle json group
+2025-6-15 17:53:25-group: Build Json
+2025-6-15 17:53:25-debug: Json group(0846c28f0) compile success，json number: 6
+2025-6-15 17:53:25-groupEnd: handle json group
+2025-6-15 17:53:25-groupEnd: handle single json
+2025-6-15 17:53:25-groupEnd: Handle all json groups in bundle internal
+2025-6-15 17:53:25-group: Handle all json groups in bundle resources
+2025-6-15 17:53:25-group: handle single json
+2025-6-15 17:53:25-group: handle json group
+2025-6-15 17:53:25-groupEnd: handle json group
+2025-6-15 17:53:25-debug: Json group(069f93d0a) compile success，json number: 6
+2025-6-15 17:53:25-group: handle single json
+2025-6-15 17:53:25-groupEnd: handle single json
+2025-6-15 17:53:25-group: Handle all json groups in bundle main
+2025-6-15 17:53:25-groupEnd: Handle all json groups in bundle resources
+2025-6-15 17:53:25-group: handle json group
+2025-6-15 17:53:25-debug: Json group(08707beb6) compile success，json number: 6
+2025-6-15 17:53:25-debug: Json group(049d06b0d) compile success，json number: 6
+2025-6-15 17:53:25-debug: Json group(0cf8914e3) compile success，json number: 6
+2025-6-15 17:53:25-debug: Json group(0ae09b2e3) compile success，json number: 6
+2025-6-15 17:53:25-groupEnd: handle json group
+2025-6-15 17:53:25-group: handle single json
+2025-6-15 17:53:25-groupEnd: handle single json
+2025-6-15 17:53:25-groupEnd: Handle all json groups in bundle main
+2025-6-15 17:53:25-groupEnd: Build Json
+2025-6-15 17:53:25-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ---- (287ms)
+2025-6-15 17:53:25-debug: run build task 将分组后的 json 与散文件构建到指定位置 success in 287 ms √43%
+2025-6-15 17:53:25-debug: Process: heapTotal 259.69MB heapUsed 232.01MB rss 216.05MB
+2025-6-15 17:53:25-debug: 打包脚本 start43%
+2025-6-15 17:53:25-debug: // ---- build task 打包脚本 ----
+2025-6-15 17:53:33-debug: 构建项目脚本 start...43%
+2025-6-15 17:53:33-debug: Process: heapTotal 307.90MB heapUsed 287.51MB rss 352.56MB
+2025-6-15 17:53:33-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2025-6-15 17:53:34-log: [build-script]enter sub process 10372, D:\CocosCreator-v3.7.4-win-060210\CocosCreator.exe,D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\static\sub-process-index
+2025-6-15 17:53:42-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+2025-6-15 17:53:45-debug: excute-script over with build-script 11955ms
+2025-6-15 17:53:45-debug: Copy externalScripts success!
+2025-6-15 17:53:45-debug: 构建项目脚本 in (11987 ms) √43%
+2025-6-15 17:53:45-debug: 构建引擎脚本 start...43%
+2025-6-15 17:53:45-debug: Process: heapTotal 249.55MB heapUsed 236.61MB rss 292.38MB
+2025-6-15 17:53:46-debug: Use cache engine: {link(C:\Users\ffgdgrrr\AppData\Local\Temp\CocosCreator\3.7.4\builder\engine\6ce9cc08018a1075ff593bc83c89493f)}
+2025-6-15 17:53:46-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.7.4","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","flags":{"DEBUG":false},"entry":"D:\\CocosCreator-v3.7.4-win-060210\\resources\\resources\\3d\\engine"}
+2025-6-15 17:53:46-debug: 构建引擎脚本 in (1043 ms) √43%
+2025-6-15 17:53:46-debug: // ---- build task 打包脚本 ---- (20840ms)
+2025-6-15 17:53:46-debug: run build task 打包脚本 success in 20840 ms √50%
+2025-6-15 17:53:46-debug: 压缩 Zip Bundle start50%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.24MB rss 292.72MB
+2025-6-15 17:53:46-debug: // ---- build task 压缩 Zip Bundle ----
+2025-6-15 17:53:46-debug: // ---- build task 压缩 Zip Bundle ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 压缩 Zip Bundle success in 1 ms √57%
+2025-6-15 17:53:46-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2025-6-15 17:53:46-debug: 给所有的资源加上 MD5 后缀 start57%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.34MB rss 292.81MB
+2025-6-15 17:53:46-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms √67%
+2025-6-15 17:53:46-debug: 初始化 settings.json 与 config.json start67%
+2025-6-15 17:53:46-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.41MB rss 292.90MB
+2025-6-15 17:53:46-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √67%
+2025-6-15 17:53:46-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.50MB rss 292.99MB
+2025-6-15 17:53:46-debug: builder.tasks.settings.macro start67%
+2025-6-15 17:53:46-debug: // ---- build task builder.tasks.settings.macro ----
+2025-6-15 17:53:46-debug: // ---- build task builder.tasks.settings.macro ---- (11ms)
+2025-6-15 17:53:46-debug: run build task builder.tasks.settings.macro success in 11 ms √68%
+2025-6-15 17:53:46-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-6-15 17:53:46-debug: 整理部分构建选项内数据到 settings.json start68%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.58MB rss 293.07MB
+2025-6-15 17:53:46-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
+2025-6-15 17:53:46-debug: run build task 整理部分构建选项内数据到 settings.json success in 11 ms √68%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.70MB rss 293.25MB
+2025-6-15 17:53:46-debug: // ---- build task custom joint texture layouts ----
+2025-6-15 17:53:46-debug: custom joint texture layouts start68%
+2025-6-15 17:53:46-debug: // ---- build task custom joint texture layouts ---- (11ms)
+2025-6-15 17:53:46-debug: run build task custom joint texture layouts success in 11 ms √69%
+2025-6-15 17:53:46-debug: custom joint physics start69%
+2025-6-15 17:53:46-debug: // ---- build task custom joint physics ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.77MB rss 293.32MB
+2025-6-15 17:53:46-debug: // ---- build task custom joint physics ---- (1ms)
+2025-6-15 17:53:46-debug: run build task custom joint physics success in 1 ms √69%
+2025-6-15 17:53:46-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.85MB rss 293.39MB
+2025-6-15 17:53:46-debug: 填充脚本数据到 settings.json start69%
+2025-6-15 17:53:46-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 填充脚本数据到 settings.json success in 1 ms √70%
+2025-6-15 17:53:46-debug: 填充场景数据到 settings.json start70%
+2025-6-15 17:53:46-debug: // ---- build task 填充场景数据到 settings.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.92MB rss 293.59MB
+2025-6-15 17:53:46-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 填充场景数据到 settings.json success in 1 ms √71%
+2025-6-15 17:53:46-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 238.00MB rss 293.64MB
+2025-6-15 17:53:46-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start71%
+2025-6-15 17:53:46-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ---- (2ms)
+2025-6-15 17:53:46-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 2 ms √71%
+2025-6-15 17:53:46-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start71%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.43MB rss 292.90MB
+2025-6-15 17:53:46-debug: options.md5Cache is false.
+2025-6-15 17:53:46-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2025-6-15 17:53:46-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2025-6-15 17:53:46-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √72%
+2025-6-15 17:53:46-debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.53MB rss 292.99MB
+2025-6-15 17:53:46-debug: web-mobile:(onBeforeCompressSettings) start...72%
+2025-6-15 17:53:46-debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (1ms)
+2025-6-15 17:53:46-debug: web-mobile:(onBeforeCompressSettings) in 1 ms73%
+2025-6-15 17:53:46-debug: cocos-service:(onBeforeCompressSettings) start...73%
+2025-6-15 17:53:46-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.60MB rss 293.07MB
+2025-6-15 17:53:46-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (149ms)
+2025-6-15 17:53:46-debug: cocos-service:(onBeforeCompressSettings) in 149 ms74%
+2025-6-15 17:53:46-debug: 生成 import-map.json start74%
+2025-6-15 17:53:46-debug: // ---- build task 生成 import-map.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.69MB rss 293.17MB
+2025-6-15 17:53:46-debug: // ---- build task 生成 import-map.json ---- (2ms)
+2025-6-15 17:53:46-debug: run build task 生成 import-map.json success in 2 ms √75%
+2025-6-15 17:53:46-debug: // ---- build task 压缩 config.json 与 settings.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.77MB rss 293.25MB
+2025-6-15 17:53:46-debug: 压缩 config.json 与 settings.json start75%
+2025-6-15 17:53:46-debug: // ---- build task 压缩 config.json 与 settings.json ---- (2ms)
+2025-6-15 17:53:46-debug: run build task 压缩 config.json 与 settings.json success in 2 ms √76%
+2025-6-15 17:53:46-debug: 保存 config.json start76%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 238.01MB rss 293.48MB
+2025-6-15 17:53:46-debug: // ---- build task 保存 config.json ----
+2025-6-15 17:53:46-debug: // ---- build task 保存 config.json ---- (2ms)
+2025-6-15 17:53:46-debug: run build task 保存 config.json success in 2 ms √76%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 238.13MB rss 293.59MB
+2025-6-15 17:53:46-debug: // ---- build task 保存 settings.json ----
+2025-6-15 17:53:46-debug: 保存 settings.json start76%
+2025-6-15 17:53:46-debug: // ---- build task 保存 settings.json ---- (2ms)
+2025-6-15 17:53:46-debug: run build task 保存 settings.json success in 2 ms √77%
+2025-6-15 17:53:46-debug: 保存 settings.json start77%
+2025-6-15 17:53:46-debug: // ---- build task 保存 settings.json ----
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.43MB rss 292.95MB
+2025-6-15 17:53:46-debug: run build task 保存 settings.json success in 0 ms √78%
+2025-6-15 17:53:46-debug: 整理静态模板文件 start78%
+2025-6-15 17:53:46-debug: Process: heapTotal 249.55MB heapUsed 237.49MB rss 293.02MB
+2025-6-15 17:53:46-debug: // ---- build task 整理静态模板文件 ----
+2025-6-15 17:53:46-debug: // ---- build task 整理静态模板文件 ---- (331ms)
+2025-6-15 17:53:46-debug: run build task 整理静态模板文件 success in 331 ms √79%
+2025-6-15 17:53:46-debug: cocos-service:(onAfterCompressSettings) start...79%
+2025-6-15 17:53:46-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2025-6-15 17:53:46-debug: Process: heapTotal 250.55MB heapUsed 238.51MB rss 296.39MB
+2025-6-15 17:53:47-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (64ms)
+2025-6-15 17:53:47-debug: cocos-service:(onAfterCompressSettings) in 64 ms81%
+2025-6-15 17:53:47-debug: // ---- build task web-mobile：onAfterBuild ----
+2025-6-15 17:53:47-debug: Process: heapTotal 252.55MB heapUsed 238.57MB rss 295.39MB
+2025-6-15 17:53:47-debug: web-mobile:(onAfterBuild) start...81%
+2025-6-15 17:53:47-debug: // ---- build task web-mobile：onAfterBuild ---- (280ms)
+2025-6-15 17:53:47-debug: web-mobile:(onAfterBuild) in 280 ms82%
+2025-6-15 17:53:47-debug: // ---- build task cocos-service：onAfterBuild ----
+2025-6-15 17:53:47-debug: Process: heapTotal 252.55MB heapUsed 238.92MB rss 296.26MB
+2025-6-15 17:53:47-debug: cocos-service:(onAfterBuild) start...82%
+2025-6-15 17:53:47-debug: // ---- build task cocos-service：onAfterBuild ---- (73ms)
+2025-6-15 17:53:47-debug: cocos-service:(onAfterBuild) in 73 ms83%
+2025-6-15 17:53:47-log: Asset DB is resume!
+2025-6-15 17:53:47-debug: builder:build-project-total (24591ms)
+2025-6-15 17:53:47-debug: build success in 24591 ms!
+2025-6-15 17:53:47-debug: ================================ build Task (web) Finished in (24598)ms ================================
+2025-6-15 17:57:29-debug: // ---- builder:run-build-stage-run ----
+2025-6-15 17:57:29-log: [task:run]: init options success, 10%
+2025-6-15 17:57:29-debug: init options success
+2025-6-15 17:57:29-log: [task:run]: web-mobile:(run) start..., 10%
+2025-6-15 17:57:29-debug: web-mobile:(run) start...
+2025-6-15 17:57:29-debug: // ---- build task web-mobile：run ----
+2025-6-15 17:57:29-log: [task:run]: web-mobile:(run) in null ms √, 10%
+2025-6-15 17:57:29-debug: web-mobile:(run) in null ms √
+2025-6-15 17:57:29-log: [task:run]: success!
+2025-6-15 17:57:45-debug: // ---- builder:run-build-stage-run ----
+2025-6-15 17:57:45-log: [task:run]: init options success, 10%
+2025-6-15 17:57:45-debug: init options success
+2025-6-15 17:57:45-log: [task:run]: web-mobile:(run) start..., 10%
+2025-6-15 17:57:45-debug: web-mobile:(run) start...
+2025-6-15 17:57:45-debug: // ---- build task web-mobile：run ----
+2025-6-15 17:57:45-log: [task:run]: web-mobile:(run) in null ms √, 10%
+2025-6-15 17:57:45-debug: web-mobile:(run) in null ms √
+2025-6-15 17:57:45-log: [task:run]: success!
+2025-6-15 18:00:02-debug: =================================== build Task (web) Start ================================
+2025-6-15 18:00:02-debug: Start build task, options:{"name":"dialogtest","platform":"web-mobile","buildPath":"project://extensions/build_windows_app/main/build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":true},"experimentalEraseModules":false,"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"packAutoAtlas":true,"startScene":"6531e975-3e76-4bea-a80e-6a473a486405","outputName":"web","scenes":[{"url":"db://assets/scene/interaction.scene","uuid":"92c92657-8e31-4922-b122-c0bfed9610c7","inBundle":false},{"url":"db://assets/scene/setting.scene","uuid":"37d42d3b-336e-48f8-b8b8-c751ebaf77cf","inBundle":false},{"url":"db://assets/scene/start.scene","uuid":"3cbe16e1-145f-427e-88cd-e637e63d106c","inBundle":false},{"url":"db://assets/scene/startMenu.scene","uuid":"6531e975-3e76-4bea-a80e-6a473a486405","inBundle":false},{"url":"db://assets/scene/test.scene","uuid":"6edc0892-5ff5-4a96-a778-8d0fabe5df65","inBundle":false}],"web-desktop":[],"packages":{"cocos-service":{"configID":"e65d04","services":[]},"web-mobile":{"orientation":"auto","embedWebDebugger":true,"__version__":"1.0.1"}},"__version__":"1.3.5","web-mobile":[]}
+2025-6-15 18:00:02-debug: Build with Cocos Creator 3.7.4
+2025-6-15 18:00:02-debug: cocos-service:(onBeforeBuild) start...0%
+2025-6-15 18:00:02-debug: // ---- build task cocos-service：onBeforeBuild ----
+2025-6-15 18:00:02-debug: Process: heapTotal 261.82MB heapUsed 247.29MB rss 309.75MB
+2025-6-15 18:00:02-debug: // ---- build task cocos-service：onBeforeBuild ---- (185ms)
+2025-6-15 18:00:02-debug: // ---- build task scene：onBeforeBuild ----
+2025-6-15 18:00:02-debug: scene:(onBeforeBuild) start...1%
+2025-6-15 18:00:02-debug: cocos-service:(onBeforeBuild) in 185 ms1%
+2025-6-15 18:00:02-debug: Process: heapTotal 261.82MB heapUsed 245.60MB rss 309.79MB
+2025-6-15 18:00:02-debug: // ---- build task scene：onBeforeBuild ---- (12ms)
+2025-6-15 18:00:02-log: Asset DB is paused with build!
+2025-6-15 18:00:02-debug: Query all assets info in project
+2025-6-15 18:00:02-debug: scene:(onBeforeBuild) in 12 ms2%
+2025-6-15 18:00:02-debug: Start lock asset db...2%
+2025-6-15 18:00:02-debug: BuildAssetLibrary query-assets with assets 674
+2025-6-15 18:00:02-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-6-15 18:00:02-debug:   Number of all scenes: 5
+2025-6-15 18:00:02-debug:   Number of all scripts: 66
+2025-6-15 18:00:02-debug: web-mobile:(onAfterInit) start...2%
+2025-6-15 18:00:02-debug: // ---- build task web-mobile：onAfterInit ----
+2025-6-15 18:00:02-debug: Process: heapTotal 261.82MB heapUsed 246.26MB rss 310.77MB
+2025-6-15 18:00:02-debug:   Number of other assets: 460
+2025-6-15 18:00:02-debug: // ---- build task web-mobile：onAfterInit ---- (30ms)
+2025-6-15 18:00:02-debug: web-mobile:(onAfterInit) in 30 ms3%
+2025-6-15 18:00:02-debug: cocos-service:(onAfterInit) start...3%
+2025-6-15 18:00:02-debug: // ---- build task cocos-service：onAfterInit ----
+2025-6-15 18:00:02-debug: Process: heapTotal 261.82MB heapUsed 246.61MB rss 310.80MB
+2025-6-15 18:00:02-debug: // ---- build task cocos-service：onAfterInit ---- (359ms)
+2025-6-15 18:00:02-debug: // ---- build task 加载刷新项目脚本 ----
+2025-6-15 18:00:02-debug: cocos-service:(onAfterInit) in 359 ms4%
+2025-6-15 18:00:02-debug: 加载刷新项目脚本 start4%
+2025-6-15 18:00:02-debug: Process: heapTotal 261.82MB heapUsed 246.70MB rss 310.79MB
+2025-6-15 18:00:02-debug: Incremental keys: 
+2025-6-15 18:00:02-debug: reload all scripts.
+2025-6-15 18:00:02-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-6-15 18:00:02-debug: Unregister ElectronAPI
+2025-6-15 18:00:02-groupCollapsed: Invalidate all modules
+2025-6-15 18:00:02-debug: Unregister dialog_galgame
+2025-6-15 18:00:02-debug: Unregister dialogLocal
+2025-6-15 18:00:02-debug: Unregister stateUI
+2025-6-15 18:00:02-debug: Unregister settingData
+2025-6-15 18:00:02-debug: Unregister bag
+2025-6-15 18:00:02-debug: Unregister localStoarge
+2025-6-15 18:00:02-debug: Unregister inventory
+2025-6-15 18:00:02-debug: Unregister dialogLocalSet
+2025-6-15 18:00:02-debug: Unregister interaction
+2025-6-15 18:00:02-debug: Unregister Player
+2025-6-15 18:00:02-debug: Unregister State
+2025-6-15 18:00:02-debug: Unregister PlayerLocalData
+2025-6-15 18:00:02-debug: Unregister ChangeKey
+2025-6-15 18:00:02-debug: Unregister LockFPS
+2025-6-15 18:00:02-debug: Unregister MenuUIContorl
+2025-6-15 18:00:02-debug: Unregister dataNode
+2025-6-15 18:00:02-debug: Unregister SaveOrReadNodeContorl
+2025-6-15 18:00:02-debug: Unregister SceneContorl
+2025-6-15 18:00:02-debug: Unregister back
+2025-6-15 18:00:02-debug: Unregister backToMenu
+2025-6-15 18:00:02-debug: Unregister codeSave
+2025-6-15 18:00:02-debug: Unregister EditBoxContorl
+2025-6-15 18:00:02-debug: Unregister isAutoSave
+2025-6-15 18:00:02-debug: Unregister isfullscreen
+2025-6-15 18:00:02-debug: Unregister printLog
+2025-6-15 18:00:02-debug: Unregister read
+2025-6-15 18:00:02-debug: Unregister reset
+2025-6-15 18:00:02-debug: Unregister videoPlayerContorl
+2025-6-15 18:00:02-debug: Unregister GuiYuMiddleSchoolVideo
+2025-6-15 18:00:02-debug: Unregister closeComputer
+2025-6-15 18:00:02-debug: Unregister openComputer
+2025-6-15 18:00:02-debug: Unregister schoolComputerScreen
+2025-6-15 18:00:02-debug: Unregister video
+2025-6-15 18:00:02-debug: Unregister chair
+2025-6-15 18:00:02-debug: Unregister pickChair
+2025-6-15 18:00:02-debug: Unregister time
+2025-6-15 18:00:02-debug: Unregister MapNode
+2025-6-15 18:00:02-debug: Unregister saveLocal
+2025-6-15 18:00:02-debug: Unregister tangmian
+2025-6-15 18:00:02-debug: Unregister move
+2025-6-15 18:00:02-debug: Unregister wordContorl
+2025-6-15 18:00:02-debug: Unregister changedScene
+2025-6-15 18:00:02-debug: Unregister nawenhao
+2025-6-15 18:00:02-debug: Unregister questionNode
+2025-6-15 18:00:02-debug: Unregister questionNodeInteraction
+2025-6-15 18:00:02-debug: Unregister mezi
+2025-6-15 18:00:02-debug: Unregister canChooseFood
+2025-6-15 18:00:02-debug: Unregister foodMake
+2025-6-15 18:00:02-debug: Unregister food
+2025-6-15 18:00:02-debug: Unregister foodWindows
+2025-6-15 18:00:02-debug: Unregister d25
+2025-6-15 18:00:02-debug: Unregister introduction
+2025-6-15 18:00:02-debug: Unregister area
+2025-6-15 18:00:02-debug: Unregister yourPos
+2025-6-15 18:00:02-debug: Unregister blackFront
+2025-6-15 18:00:02-debug: Unregister CameraFollow
+2025-6-15 18:00:02-debug: Unregister chatNode
+2025-6-15 18:00:02-debug: Unregister dialog_galgame
+2025-6-15 18:00:02-debug: Unregister comic
+2025-6-15 18:00:02-debug: Unregister SceneList
+2025-6-15 18:00:02-debug: Unregister connectScene
+2025-6-15 18:00:02-debug: Unregister dialog_galgame
+2025-6-15 18:00:02-debug: Unregister Mask_sLabel
+2025-6-15 18:00:02-debug: Unregister button
+2025-6-15 18:00:02-debug: Unregister dialog_op
+2025-6-15 18:00:02-debug: Unregister contact_interaction
+2025-6-15 18:00:02-debug: Unregister highContactInteraction
+2025-6-15 18:00:02-debug: Unregister undo
+2025-6-15 18:00:02-debug: Unregister scrollWithView
+2025-6-15 18:00:02-debug: Unregister DebugViewRuntimeControl
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/45/4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/39/39156f0cfb4061e0ef8b0dbe14e2522be69da006.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/e1/e124bb0702789d0ed907bd9cd07e42461f2eb1d5.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/de/de05a9640ee0aaca483be38d8395e02e951d4452.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/7a/7ae8c55f58a4f31e727031b278827996d43ca505.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/63/63c25c517e65836cf3e5112559c2be132eaee81d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/34/346812cc5da6f59f898c44081d9a51cf56948648.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/18/18b83e9c6faf5c3e317f51cb21c88f19fe97c61c.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/c8/c816585e3ee77df5fbf4578dc4d7471566eb85a4.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/a6/a6ade9b9962673ecea93623410e66dfec6ffb5c5.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/2f/2f6eda023c12876140cf571d93025017187e9212.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/81/811e968b07c564bb049058e0f2e0f9cd646eed02.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/f3/f300dc8a499fe86f8e6a1b4adb413615b419cb81.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/7c/7cd2f0635e0d53a0a876fdae6b8c4380b57855a7.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/0b/0bf4ee05607d03a2413466208fbcf753d4a59e83.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/99/994f1ede2348eece3670f0a9b1ca2ab756c9ac0b.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/01/01dfa34cb1d1e57332e1b5fcbad28954332ba180.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/75/75f7ecb039806323312da4d4e413438b644452f9.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/05/05ae8f825ac5d6b171c13549a8ed9f8b5f8b1ef8.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/b6/b67d901e900096963ab8aa4567a6848e587bf33d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/8d/8d278f09e55cb2ae0fb36c3eeaa7322f04ad5754.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/eb/eb1910dcc4355c874c1adb2d64d764459cabaa74.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ee/ee7d7884be830363f7621e12f183f6662c85d18d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/c7/c7b372867eb4154685a84a4b556d9d49fda8d94f.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/c2/c230abf6af5e77d9c5df6fd829cdfea3fbebd3c7.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/5b/5b41d3e7de068191fce547496e7ebc634dcf49af.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/6b/6b2e422ebfefc7f28d60e451497b958102204a8a.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/4e/4eb82e5554aca2f95a7e9b3e7cd064d5ab532f15.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ed/eda19f4bbcc5f00b40b5a0ba48d20ebbc3b4fdc1.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/1b/1bad4de0bceb2f80100cc9645e324a867f5b7653.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/56/56fc7b7501df354542b7f614b3468cc3c5fa4b07.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/64/64cc48c4b6f3b9a8eb1adfbfc2454d53e5afc051.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/b0/b011df1280182bbc1c956092dc5e235dd5272ba8.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/95/95c384c5182b521db4508f7d098073421a5c522e.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/0e/0e7a068c822373dc2aa329b05d1434bcac1ad891.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/77/776e00354de0898e17c2f010019e2105d1341c09.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/76/7638876ff50ece3f6b811fbdaa5520c74906cd81.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/40/40d0483f6a8415a0e76477b28c5d914bf17c2ec1.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/58/5879914f3d22b88201439cb80d6d5c023b45445b.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/20/20f29fa6d09aa2d79fd4b41bde4bc79deab4843d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/f9/f904f00f4c3a2da7693b6be7913199258044202b.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/66/665ab0d1c2602f6252a3ccb1a14d2534d5d56f91.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/83/83ac4c0569d669b18a7de44aa05830f96b975a7c.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/7a/7a0a070c5f86484f7e6360df89315daabe1763a2.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/83/8370334792c98eeb64edc70a1c95abde7b12aa7d.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/47/474c0cb3d8708aacd618ae43ad8e3bbdfe041107.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ec/ec3e7c9a80e7061c4fc30d031ed58b837bcc6b09.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ae/ae847d862d681ed764dac01ebcfa0075793d572e.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/d0/d0b68655bbe0f1fc9af888fd628e7537d160c5fa.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/57/57eeac3db58969b456f43140a4df5bd6158dec51.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/2e/2ec84f566081548548b60ab7c36fab8e7eb150aa.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/f3/f38f09b6ed3bf6f7e8fff11032110bf889705f80.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/82/82f8394920f69e62b1f8d31a95ea5103bbebb127.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ec/ecbdf908089b0b59be352634bd6c2b0cc5f8b960.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/c1/c1447506666cfc020e38cab0d2afe91ed82ad4c2.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/b3/b33baded9b333c1f61b0ee0b902d1e112a3bf9f6.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/74/7422943226c0b4c0a21fc550b77066ad457cc244.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/27/272b94c3d9e5ee3ef48b4d2f6270a927b6799568.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/5f/5fc72215c97d80300b7e6f4c943a08a6ac9a0f82.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/10/10fc004a30f1d6536de5da0dffd9c716181ebb6c.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/92/9212b833e3152908a95c14492d1ec5825209297e.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/ba/ba8819fb5cc6043c9a9a34ea642320d1b9b595ac.js'
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/4a/4ac935d9f16d3edc66dfa6b8f1fd6db7dc09e931.js'
+2025-6-15 18:00:02-groupCollapsed: Imports all modules
+2025-6-15 18:00:02-debug: Invalidating 'pack:///chunks/75/75a65522bed6aa9f89ac91db8837012392334e73.js'
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ce/cee638a986ad8fae09398db255647defcaa6612a.js" loaded.
+2025-6-15 18:00:02-groupEnd: Invalidate all modules
+2025-6-15 18:00:02-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\45\4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\45\4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js is not in module cache!
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/45/4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/39/39156f0cfb4061e0ef8b0dbe14e2522be69da006.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register ElectronAPI
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/be/be027f973d8ff1c6fe3dcfebbc993118a793ec1b.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/7a/7ae8c55f58a4f31e727031b278827996d43ca505.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/18/18b83e9c6faf5c3e317f51cb21c88f19fe97c61c.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register dialogLocal
+2025-6-15 18:00:02-debug: [[Executor]] Register dialog_galgame
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/de/de05a9640ee0aaca483be38d8395e02e951d4452.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register stateUI
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/c8/c816585e3ee77df5fbf4578dc4d7471566eb85a4.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register bag
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/34/346812cc5da6f59f898c44081d9a51cf56948648.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register localStoarge
+2025-6-15 18:00:02-debug: [[Executor]] Register settingData
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/63/63c25c517e65836cf3e5112559c2be132eaee81d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register interaction
+2025-6-15 18:00:02-debug: [[Executor]] Register inventory
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/e1/e124bb0702789d0ed907bd9cd07e42461f2eb1d5.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register State
+2025-6-15 18:00:02-debug: [[Executor]] Register Player
+2025-6-15 18:00:02-debug: [[Executor]] Register dialogLocalSet
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register ChangeKey
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register LockFPS
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/2f/2f6eda023c12876140cf571d93025017187e9212.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register PlayerLocalData
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/a6/a6ade9b9962673ecea93623410e66dfec6ffb5c5.js" loaded.
+2025-6-15 18:00:02-debug: C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\67\6701eeaf2a2ec8fe985e24d7bc5c9b55a2aafb96.js resolved to C:\Users\ffgdgrrr\Desktop\rpg\temp\programming\packer-driver\targets\editor\chunks\67\6701eeaf2a2ec8fe985e24d7bc5c9b55a2aafb96.js is not in module cache!
+2025-6-15 18:00:02-debug: [[Executor]] Register MenuUIContorl
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/67/6701eeaf2a2ec8fe985e24d7bc5c9b55a2aafb96.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register dataNode
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/7c/7cd2f0635e0d53a0a876fdae6b8c4380b57855a7.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/f3/f300dc8a499fe86f8e6a1b4adb413615b419cb81.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register SaveOrReadNodeContorl
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/0b/0bf4ee05607d03a2413466208fbcf753d4a59e83.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register back
+2025-6-15 18:00:02-debug: [[Executor]] Register SceneContorl
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/99/994f1ede2348eece3670f0a9b1ca2ab756c9ac0b.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register backToMenu
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register codeSave
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/01/01dfa34cb1d1e57332e1b5fcbad28954332ba180.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register isAutoSave
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/75/75f7ecb039806323312da4d4e413438b644452f9.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register EditBoxContorl
+2025-6-15 18:00:02-debug: [[Executor]] Register isfullscreen
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/b6/b67d901e900096963ab8aa4567a6848e587bf33d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register printLog
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/8d/8d278f09e55cb2ae0fb36c3eeaa7322f04ad5754.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register read
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/eb/eb1910dcc4355c874c1adb2d64d764459cabaa74.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register reset
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ee/ee7d7884be830363f7621e12f183f6662c85d18d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register videoPlayerContorl
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/c7/c7b372867eb4154685a84a4b556d9d49fda8d94f.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/05/05ae8f825ac5d6b171c13549a8ed9f8b5f8b1ef8.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/c2/c230abf6af5e77d9c5df6fd829cdfea3fbebd3c7.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register closeComputer
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/5b/5b41d3e7de068191fce547496e7ebc634dcf49af.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register openComputer
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/6b/6b2e422ebfefc7f28d60e451497b958102204a8a.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register schoolComputerScreen
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/4e/4eb82e5554aca2f95a7e9b3e7cd064d5ab532f15.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register video
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ed/eda19f4bbcc5f00b40b5a0ba48d20ebbc3b4fdc1.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register chair
+2025-6-15 18:00:02-debug: [[Executor]] Register GuiYuMiddleSchoolVideo
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/1b/1bad4de0bceb2f80100cc9645e324a867f5b7653.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register pickChair
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/95/95c384c5182b521db4508f7d098073421a5c522e.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/56/56fc7b7501df354542b7f614b3468cc3c5fa4b07.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register MapNode
+2025-6-15 18:00:02-debug: [[Executor]] Register saveLocal
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/64/64cc48c4b6f3b9a8eb1adfbfc2454d53e5afc051.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register tangmian
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/76/7638876ff50ece3f6b811fbdaa5520c74906cd81.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register move
+2025-6-15 18:00:02-debug: [[Executor]] Register time
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/77/776e00354de0898e17c2f010019e2105d1341c09.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register wordContorl
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/0e/0e7a068c822373dc2aa329b05d1434bcac1ad891.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register changedScene
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/b0/b011df1280182bbc1c956092dc5e235dd5272ba8.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register nawenhao
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/40/40d0483f6a8415a0e76477b28c5d914bf17c2ec1.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register questionNode
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/58/5879914f3d22b88201439cb80d6d5c023b45445b.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register questionNodeInteraction
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/20/20f29fa6d09aa2d79fd4b41bde4bc79deab4843d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/66/665ab0d1c2602f6252a3ccb1a14d2534d5d56f91.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register canChooseFood
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/f9/f904f00f4c3a2da7693b6be7913199258044202b.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register foodMake
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/83/8370334792c98eeb64edc70a1c95abde7b12aa7d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register food
+2025-6-15 18:00:02-debug: [[Executor]] Register mezi
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/83/83ac4c0569d669b18a7de44aa05830f96b975a7c.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/7a/7a0a070c5f86484f7e6360df89315daabe1763a2.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register foodWindows
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/47/474c0cb3d8708aacd618ae43ad8e3bbdfe041107.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register introduction
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ae/ae847d862d681ed764dac01ebcfa0075793d572e.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register area
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ec/ec3e7c9a80e7061c4fc30d031ed58b837bcc6b09.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register d25
+2025-6-15 18:00:02-debug: [[Executor]] Register yourPos
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/d0/d0b68655bbe0f1fc9af888fd628e7537d160c5fa.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/57/57eeac3db58969b456f43140a4df5bd6158dec51.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register CameraFollow
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/2e/2ec84f566081548548b60ab7c36fab8e7eb150aa.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register blackFront
+2025-6-15 18:00:02-debug: [[Executor]] Register chatNode
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/f3/f38f09b6ed3bf6f7e8fff11032110bf889705f80.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/82/82f8394920f69e62b1f8d31a95ea5103bbebb127.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register comic
+2025-6-15 18:00:02-debug: [[Executor]] Register dialog_galgame
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ec/ecbdf908089b0b59be352634bd6c2b0cc5f8b960.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register SceneList
+2025-6-15 18:00:02-debug: [[Executor]] Register connectScene
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/c1/c1447506666cfc020e38cab0d2afe91ed82ad4c2.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/b3/b33baded9b333c1f61b0ee0b902d1e112a3bf9f6.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register Mask_sLabel
+2025-6-15 18:00:02-debug: [[Executor]] Register dialog_galgame
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/74/7422943226c0b4c0a21fc550b77066ad457cc244.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/27/272b94c3d9e5ee3ef48b4d2f6270a927b6799568.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register button
+2025-6-15 18:00:02-debug: [[Executor]] Register dialog_op
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/5f/5fc72215c97d80300b7e6f4c943a08a6ac9a0f82.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/10/10fc004a30f1d6536de5da0dffd9c716181ebb6c.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register contact_interaction
+2025-6-15 18:00:02-debug: [[Executor]] Register highContactInteraction
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/92/9212b833e3152908a95c14492d1ec5825209297e.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register undo
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/ba/ba8819fb5cc6043c9a9a34ea642320d1b9b595ac.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register scrollWithView
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/4a/4ac935d9f16d3edc66dfa6b8f1fd6db7dc09e931.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/75/75a65522bed6aa9f89ac91db8837012392334e73.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Module "pack:///chunks/45/4577dc8b13fe60dc6db424f39beaa4d64b13a53d.js" loaded.
+2025-6-15 18:00:02-debug: [[Executor]] Register DebugViewRuntimeControl
+2025-6-15 18:00:02-groupEnd: Imports all modules
+2025-6-15 18:00:02-debug: // ---- build task 加载刷新项目脚本 ---- (96ms)
+2025-6-15 18:00:02-debug: 查询 Asset Bundle start6%
+2025-6-15 18:00:02-debug: // ---- build task 查询 Asset Bundle ----
+2025-6-15 18:00:02-debug: run build task 加载刷新项目脚本 success in 96 ms √6%
+2025-6-15 18:00:02-debug: Process: heapTotal 261.98MB heapUsed 248.67MB rss 311.62MB
+2025-6-15 18:00:02-debug: // ---- build task 查询 Asset Bundle ---- (17ms)
+2025-6-15 18:00:02-debug: run build task 查询 Asset Bundle success in 17 ms √7%
+2025-6-15 18:00:02-debug: // ---- build task 查询使用的资源以及资源包配置 ----
+2025-6-15 18:00:02-debug: 查询使用的资源以及资源包配置 start7%
+2025-6-15 18:00:02-debug: Process: heapTotal 261.98MB heapUsed 247.67MB rss 311.45MB
+2025-6-15 18:00:02-debug: init bundle assets
+2025-6-15 18:00:02-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,ff9be190-20a4-4e48-b68c-76e3c7cff085,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,9361fd90-ba52-4f84-aa93-6e878fd576ca,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d
+2025-6-15 18:00:02-debug: Start sort share asset in bundle
+2025-6-15 18:00:02-debug: Start sort share asset in bundle internal with assets 20}
+2025-6-15 18:00:02-debug: Start sort share asset in bundle resources with assets 1}
+2025-6-15 18:00:02-debug: Number of scenes: 5
+2025-6-15 18:00:02-debug: Start sort share asset in bundle main with assets 7}
+2025-6-15 18:00:02-debug: Number of assets: 186
+2025-6-15 18:00:02-debug: Number of asset bundle: 3
+2025-6-15 18:00:02-debug: // ---- build task 查询使用的资源以及资源包配置 ---- (55ms)
+2025-6-15 18:00:02-debug: run build task 查询使用的资源以及资源包配置 success in 55 ms √8%
+2025-6-15 18:00:02-debug: 整理脚本分组与脚本数据 start8%
+2025-6-15 18:00:02-debug: Process: heapTotal 266.94MB heapUsed 251.75MB rss 313.22MB
+2025-6-15 18:00:02-debug: // ---- build task 整理脚本分组与脚本数据 ----
+2025-6-15 18:00:02-debug: sort script group...
+2025-6-15 18:00:02-debug: // ---- build task 整理脚本分组与脚本数据 ---- (1ms)
+2025-6-15 18:00:02-debug: run build task 整理脚本分组与脚本数据 success in 1 ms √9%
+2025-6-15 18:00:02-debug: // ---- build task 整理纹理压缩任务 ----
+2025-6-15 18:00:02-debug: 整理纹理压缩任务 start9%
+2025-6-15 18:00:02-debug: Process: heapTotal 266.94MB heapUsed 251.85MB rss 312.73MB
+2025-6-15 18:00:02-debug: Number of image-compress task: 0
+2025-6-15 18:00:02-debug: // ---- build task 整理纹理压缩任务 ---- (10ms)
+2025-6-15 18:00:02-debug: run build task 整理纹理压缩任务 success in 10 ms √11%
+2025-6-15 18:00:02-debug: 初步划分 JSON 合并分组 start11%
+2025-6-15 18:00:02-debug: // ---- build task 初步划分 JSON 合并分组 ----
+2025-6-15 18:00:02-debug: Process: heapTotal 266.94MB heapUsed 252.01MB rss 312.90MB
+2025-6-15 18:00:02-debug: Start sort the json group of bundle(resources)...
+2025-6-15 18:00:02-debug: Number of json group with bundle(resources) 1
+2025-6-15 18:00:02-debug: Number of json group with bundle(internal): 1
+2025-6-15 18:00:02-debug: Number of json group with bundle(main) 5
+2025-6-15 18:00:02-debug: Start sort the json group of bundle(main)...
+2025-6-15 18:00:02-debug: Number of json group: 6
+2025-6-15 18:00:02-debug: // ---- build task 初步划分 JSON 合并分组 ---- (2ms)
+2025-6-15 18:00:02-debug: run build task 初步划分 JSON 合并分组 success in 2 ms √12%
+2025-6-15 18:00:02-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ----
+2025-6-15 18:00:02-debug: 整理合并压缩 Texture2D 的 JSON 数据 start12%
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 248.65MB rss 312.29MB
+2025-6-15 18:00:02-debug: // ---- build task 整理合并压缩 Texture2D 的 JSON 数据 ---- (2ms)
+2025-6-15 18:00:02-debug: run build task 整理合并压缩 Texture2D 的 JSON 数据 success in 2 ms √13%
+2025-6-15 18:00:02-debug: 收集 importMap 信息 start13%
+2025-6-15 18:00:02-debug: // ---- build task 收集 importMap 信息 ----
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 248.77MB rss 312.38MB
+2025-6-15 18:00:02-debug: run build task 收集 importMap 信息 success in 0 ms √14%
+2025-6-15 18:00:02-debug: web-mobile:(onBeforeBuildAssets) start...14%
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 248.85MB rss 312.38MB
+2025-6-15 18:00:02-debug: // ---- build task web-mobile：onBeforeBuildAssets ----
+2025-6-15 18:00:02-debug: // ---- build task web-mobile：onBeforeBuildAssets ---- (1ms)
+2025-6-15 18:00:02-debug: web-mobile:(onBeforeBuildAssets) in 1 ms17%
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 248.94MB rss 312.38MB
+2025-6-15 18:00:02-debug: 构建自动图集 start17%
+2025-6-15 18:00:02-debug: Start collect pack info from bundleds
+2025-6-15 18:00:02-debug: // ---- build task 构建自动图集 ----
+2025-6-15 18:00:02-debug: run build task 构建自动图集 success in 0 ms √23%
+2025-6-15 18:00:02-debug: // ---- build task 图片拷贝压缩任务 ----
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 249.02MB rss 312.38MB
+2025-6-15 18:00:02-debug: 图片拷贝压缩任务 start23%
+2025-6-15 18:00:02-debug: run build task 图片拷贝压缩任务 success in 0 ms √30%
+2025-6-15 18:00:02-debug: 将资源拷贝到指定位置 start30%
+2025-6-15 18:00:02-debug: // ---- build task 将资源拷贝到指定位置 ----
+2025-6-15 18:00:02-debug: Process: heapTotal 266.23MB heapUsed 249.09MB rss 312.38MB
+2025-6-15 18:00:02-group: Handle bundle internal
+2025-6-15 18:00:02-groupEnd: Handle bundle internal
+2025-6-15 18:00:02-debug: Asset Bundle(internal) handle assets: 20
+2025-6-15 18:00:02-group: Handle bundle resources
+2025-6-15 18:00:02-debug: Asset Bundle(resources) handle assets: 7
+2025-6-15 18:00:02-groupEnd: Handle bundle resources
+2025-6-15 18:00:02-group: Handle bundle main
+2025-6-15 18:00:03-debug: Asset Bundle(main) handle assets: 164
+2025-6-15 18:00:03-groupEnd: Handle bundle main
+2025-6-15 18:00:03-debug: // ---- build task 将资源拷贝到指定位置 ---- (78ms)
+2025-6-15 18:00:03-debug: run build task 将资源拷贝到指定位置 success in 78 ms √37%
+2025-6-15 18:00:03-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ----
+2025-6-15 18:00:03-debug: 将分组后的 json 与散文件构建到指定位置 start37%
+2025-6-15 18:00:03-group: Build Json
+2025-6-15 18:00:03-debug: Process: heapTotal 266.23MB heapUsed 249.74MB rss 314.61MB
+2025-6-15 18:00:03-group: Handle all json groups in bundle internal
+2025-6-15 18:00:03-group: handle json group
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-alpha-test-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/default-clear-stencil.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/default-spine-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/missing-effect-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/missing-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-sprite-gray-alpha-sep-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-base-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-sprite-gray-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-graphics-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-sprite-alpha-sep-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_materials/ui-sprite-material.mtl)})
+2025-6-15 18:00:03-debug: Json group(0846c28f0) compile success，json number: 6
+2025-6-15 18:00:03-groupEnd: handle json group
+2025-6-15 18:00:03-groupEnd: handle single json
+2025-6-15 18:00:03-group: Handle all json groups in bundle resources
+2025-6-15 18:00:03-groupEnd: Handle all json groups in bundle internal
+2025-6-15 18:00:03-group: handle json group
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/mtl/ui-sprite-material-001.mtl)})
+2025-6-15 18:00:03-group: handle single json
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/resources/mezi/物品1.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/prefab/物品1交互后.prefab)})
+2025-6-15 18:00:03-debug: Json group(069f93d0a) compile success，json number: 6
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite.png)})
+2025-6-15 18:00:03-group: handle single json
+2025-6-15 18:00:03-groupEnd: handle json group
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite.png/texture)})
+2025-6-15 18:00:03-groupEnd: handle single json
+2025-6-15 18:00:03-groupEnd: Handle all json groups in bundle resources
+2025-6-15 18:00:03-group: Handle all json groups in bundle main
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173622.png)})
+2025-6-15 18:00:03-group: handle json group
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk2.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/sitDown/peopleIndesk.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite_splash.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/Map.jpg)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings1.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings2.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar_bg.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/texture/loading.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_normal.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair1.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/texture/nullPhoto.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173503.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk3.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_checkmark.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/head.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_pressed.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk5.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_normal.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_disabled.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk8.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk1.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk7.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk12.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_panel.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_editbox_bg.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk10.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk11.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings5.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings3.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk4.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk9.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair2.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings4.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk6.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical_bg.png)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_normal.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_checkmark.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_normal.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/scene/setting.scene)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_pressed.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/back)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/right)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/bottom)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/left)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/top)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.png/textureCube/front)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_disabled.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_editbox_bg.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/back)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/right)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/bottom)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/left)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/top)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_skybox/default_skybox.hdr/textureCube/front)})
+2025-6-15 18:00:03-debug: Json group(08707beb6) compile success，json number: 6
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/music/录音 (13).m4a)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/head.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk8.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/prefab/optionButton.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/texture/nullPhoto.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173622.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173503.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/scene/test.scene)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk2.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/sitDown/peopleIndesk.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/Map.jpg/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite_splash.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk3.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk5.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar_bg.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk1.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk7.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk12.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk10.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk11.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk4.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk9.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk6.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/csv/测试对话-001.csv)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/prefab/ProgressBar.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/csv/测试对话.csv)})
+2025-6-15 18:00:03-debug: Json group(049d06b0d) compile success，json number: 6
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/texture/loading.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/texture/SpriteSplash-001.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/prefab/SceneContorl.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/时间/Label.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/prefab/printLog.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/prefab/保存或读取.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/scene/startMenu.scene)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/prefab/保存或读取？.csv)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/prefab/readAndSaveNode.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/mtl/ui-sprite-material.mtl)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/状态栏/状态UI.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_panel.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/inventory/prefab/bag.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical_bg.png/spriteFrame)})
+2025-6-15 18:00:03-debug: Json group(0cf8914e3) compile success，json number: 6
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair1.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/csv/这是讲台.csv)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings1.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings2.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/scene/interaction.scene)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings5.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair2.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings3.png/spriteFrame)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/prefab/CheckMezi.prefab)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings4.png/spriteFrame)})
+2025-6-15 18:00:03-debug: Json group(0ae09b2e3) compile success，json number: 6
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173622.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk2.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/sitDown/peopleIndesk.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/Map.jpg/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_sprite_splash.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings1.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings2.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar_bg.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_normal.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/UI/texture/loading.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_progressbar.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair1.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/tools/dialog/resources/texture/nullPhoto.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/屏幕截图 2025-06-15 173503.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk3.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_toggle_checkmark.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/test/texture/head.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_pressed.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk5.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_normal.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_btn_disabled.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk8.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk1.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk7.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk12.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_panel.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_editbox_bg.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk11.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings5.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings3.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk10.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk4.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk9.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/deskAndChair2.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/Player/resources/animation/walk/walk6.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://assets/sceneResources/school/classroom/texture/classroomThings4.png/texture)})
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_ui/default_scrollbar_vertical_bg.png/texture)})
+2025-6-15 18:00:03-groupEnd: handle json group
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/physics/default-physics-material.pmtl)})
+2025-6-15 18:00:03-group: handle single json
+2025-6-15 18:00:03-debug: getSerializedJSON: Use cache serialized JSON of asset ({asset(db://internal/default_renderpipeline/builtin-forward.rpp)})
+2025-6-15 18:00:03-groupEnd: handle single json
+2025-6-15 18:00:03-groupEnd: Handle all json groups in bundle main
+2025-6-15 18:00:03-groupEnd: Build Json
+2025-6-15 18:00:03-debug: // ---- build task 将分组后的 json 与散文件构建到指定位置 ---- (145ms)
+2025-6-15 18:00:03-debug: run build task 将分组后的 json 与散文件构建到指定位置 success in 145 ms √43%
+2025-6-15 18:00:03-debug: // ---- build task 打包脚本 ----
+2025-6-15 18:00:03-debug: Process: heapTotal 266.44MB heapUsed 250.46MB rss 314.63MB
+2025-6-15 18:00:03-debug: 打包脚本 start43%
+2025-6-15 18:00:08-debug: 构建项目脚本 start...43%
+2025-6-15 18:00:08-debug: Process: heapTotal 307.00MB heapUsed 286.23MB rss 353.58MB
+2025-6-15 18:00:08-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2025-6-15 18:00:09-log: [build-script]enter sub process 6980, D:\CocosCreator-v3.7.4-win-060210\CocosCreator.exe,D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\static\sub-process-index
+2025-6-15 18:00:14-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts
+2025-6-15 18:00:14-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+2025-6-15 18:00:17-debug: excute-script over with build-script 9739ms
+2025-6-15 18:00:17-debug: Copy externalScripts success!
+2025-6-15 18:00:17-debug: 构建项目脚本 in (9761 ms) √43%
+2025-6-15 18:00:17-debug: 构建引擎脚本 start...43%
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 237.30MB rss 295.21MB
+2025-6-15 18:00:17-debug: Use cache engine: {link(C:\Users\ffgdgrrr\AppData\Local\Temp\CocosCreator\3.7.4\builder\engine\6ce9cc08018a1075ff593bc83c89493f)}
+2025-6-15 18:00:17-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","animation","audio","base","dragon-bones","gfx-webgl","gfx-webgl2","intersection-2d","particle-2d","physics-2d-box2d","profiler","spine","tiled-map","tween","ui","video","webview"],"engineVersion":"3.7.4","platform":"HTML5","md5Map":[],"engineName":"cocos-js","useCache":true,"split":false,"ammoJsWasm":"fallback","assetURLFormat":"runtime-resolved","flags":{"DEBUG":false},"entry":"D:\\CocosCreator-v3.7.4-win-060210\\resources\\resources\\3d\\engine"}
+2025-6-15 18:00:17-debug: 构建引擎脚本 in (99 ms) √43%
+2025-6-15 18:00:17-debug: // ---- build task 打包脚本 ---- (14723ms)
+2025-6-15 18:00:17-debug: run build task 打包脚本 success in 14723 ms √50%
+2025-6-15 18:00:17-debug: 压缩 Zip Bundle start50%
+2025-6-15 18:00:17-debug: // ---- build task 压缩 Zip Bundle ----
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.37MB rss 296.30MB
+2025-6-15 18:00:17-debug: // ---- build task 压缩 Zip Bundle ---- (1ms)
+2025-6-15 18:00:17-debug: run build task 压缩 Zip Bundle success in 1 ms √57%
+2025-6-15 18:00:17-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2025-6-15 18:00:17-debug: 给所有的资源加上 MD5 后缀 start57%
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.46MB rss 296.39MB
+2025-6-15 18:00:17-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (1ms)
+2025-6-15 18:00:17-debug: run build task 给所有的资源加上 MD5 后缀 success in 1 ms √67%
+2025-6-15 18:00:17-debug: // ---- build task 初始化 settings.json 与 config.json ----
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 237.97MB rss 295.63MB
+2025-6-15 18:00:17-debug: 初始化 settings.json 与 config.json start67%
+2025-6-15 18:00:17-debug: // ---- build task 初始化 settings.json 与 config.json ---- (1ms)
+2025-6-15 18:00:17-debug: run build task 初始化 settings.json 与 config.json success in 1 ms √67%
+2025-6-15 18:00:17-debug: builder.tasks.settings.macro 字段未在编辑器多语言内定义
+2025-6-15 18:00:17-debug: // ---- build task builder.tasks.settings.macro ----
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.06MB rss 295.72MB
+2025-6-15 18:00:17-debug: builder.tasks.settings.macro start67%
+2025-6-15 18:00:17-debug: // ---- build task builder.tasks.settings.macro ---- (12ms)
+2025-6-15 18:00:17-debug: run build task builder.tasks.settings.macro success in 12 ms √68%
+2025-6-15 18:00:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-6-15 18:00:17-debug: 整理部分构建选项内数据到 settings.json start68%
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.14MB rss 295.80MB
+2025-6-15 18:00:17-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (11ms)
+2025-6-15 18:00:17-debug: run build task 整理部分构建选项内数据到 settings.json success in 11 ms √68%
+2025-6-15 18:00:17-debug: // ---- build task custom joint texture layouts ----
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.26MB rss 295.92MB
+2025-6-15 18:00:17-debug: custom joint texture layouts start68%
+2025-6-15 18:00:17-debug: // ---- build task custom joint texture layouts ---- (10ms)
+2025-6-15 18:00:17-debug: run build task custom joint texture layouts success in 10 ms √69%
+2025-6-15 18:00:17-debug: custom joint physics start69%
+2025-6-15 18:00:17-debug: // ---- build task custom joint physics ----
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.33MB rss 295.99MB
+2025-6-15 18:00:17-debug: // ---- build task custom joint physics ---- (1ms)
+2025-6-15 18:00:17-debug: run build task custom joint physics success in 1 ms √69%
+2025-6-15 18:00:17-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-6-15 18:00:17-debug: 填充脚本数据到 settings.json start69%
+2025-6-15 18:00:17-debug: Process: heapTotal 249.80MB heapUsed 238.40MB rss 296.07MB
+2025-6-15 18:00:17-debug: run build task 填充脚本数据到 settings.json success in 0 ms √70%
+2025-6-15 18:00:18-debug: 填充场景数据到 settings.json start70%
+2025-6-15 18:00:18-debug: // ---- build task 填充场景数据到 settings.json ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.47MB rss 296.13MB
+2025-6-15 18:00:18-debug: // ---- build task 填充场景数据到 settings.json ---- (1ms)
+2025-6-15 18:00:18-debug: run build task 填充场景数据到 settings.json success in 1 ms √71%
+2025-6-15 18:00:18-debug: // ---- build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.54MB rss 296.20MB
+2025-6-15 18:00:18-debug: 整理资源分组，生成 packedAssets 以及 rawAssets 数据 start71%
+2025-6-15 18:00:18-debug: run build task 整理资源分组，生成 packedAssets 以及 rawAssets 数据 success in 0 ms √71%
+2025-6-15 18:00:18-debug: 从 suffixMap 生成 md5AssetsMap 到 settings.json start71%
+2025-6-15 18:00:18-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.65MB rss 296.31MB
+2025-6-15 18:00:18-debug: options.md5Cache is false.
+2025-6-15 18:00:18-debug: // ---- build task 从 suffixMap 生成 md5AssetsMap 到 settings.json ---- (1ms)
+2025-6-15 18:00:18-debug: run build task 从 suffixMap 生成 md5AssetsMap 到 settings.json success in 1 ms √72%
+2025-6-15 18:00:18-debug: web-mobile:(onBeforeCompressSettings) start...72%
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.02MB rss 295.48MB
+2025-6-15 18:00:18-debug: // ---- build task web-mobile：onBeforeCompressSettings ----
+2025-6-15 18:00:18-debug: // ---- build task web-mobile：onBeforeCompressSettings ---- (1ms)
+2025-6-15 18:00:18-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2025-6-15 18:00:18-debug: cocos-service:(onBeforeCompressSettings) start...73%
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.09MB rss 295.55MB
+2025-6-15 18:00:18-debug: web-mobile:(onBeforeCompressSettings) in 1 ms73%
+2025-6-15 18:00:18-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (145ms)
+2025-6-15 18:00:18-debug: cocos-service:(onBeforeCompressSettings) in 145 ms74%
+2025-6-15 18:00:18-debug: 生成 import-map.json start74%
+2025-6-15 18:00:18-debug: // ---- build task 生成 import-map.json ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.18MB rss 295.64MB
+2025-6-15 18:00:18-debug: // ---- build task 生成 import-map.json ---- (2ms)
+2025-6-15 18:00:18-debug: run build task 生成 import-map.json success in 2 ms √75%
+2025-6-15 18:00:18-debug: // ---- build task 压缩 config.json 与 settings.json ----
+2025-6-15 18:00:18-debug: 压缩 config.json 与 settings.json start75%
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.26MB rss 295.72MB
+2025-6-15 18:00:18-debug: // ---- build task 压缩 config.json 与 settings.json ---- (4ms)
+2025-6-15 18:00:18-debug: run build task 压缩 config.json 与 settings.json success in 4 ms √76%
+2025-6-15 18:00:18-debug: 保存 config.json start76%
+2025-6-15 18:00:18-debug: // ---- build task 保存 config.json ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.49MB rss 296.16MB
+2025-6-15 18:00:18-debug: // ---- build task 保存 config.json ---- (2ms)
+2025-6-15 18:00:18-debug: run build task 保存 config.json success in 2 ms √76%
+2025-6-15 18:00:18-debug: 保存 settings.json start76%
+2025-6-15 18:00:18-debug: // ---- build task 保存 settings.json ----
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.60MB rss 296.16MB
+2025-6-15 18:00:18-debug: // ---- build task 保存 settings.json ---- (1ms)
+2025-6-15 18:00:18-debug: run build task 保存 settings.json success in 1 ms √77%
+2025-6-15 18:00:18-debug: 保存 settings.json start77%
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.76MB rss 296.34MB
+2025-6-15 18:00:18-debug: // ---- build task 保存 settings.json ----
+2025-6-15 18:00:18-debug: // ---- build task 保存 settings.json ---- (2ms)
+2025-6-15 18:00:18-debug: run build task 保存 settings.json success in 2 ms √78%
+2025-6-15 18:00:18-debug: 整理静态模板文件 start78%
+2025-6-15 18:00:18-debug: Process: heapTotal 249.80MB heapUsed 238.84MB rss 297.41MB
+2025-6-15 18:00:18-debug: // ---- build task 整理静态模板文件 ----
+2025-6-15 18:00:18-debug: // ---- build task 整理静态模板文件 ---- (57ms)
+2025-6-15 18:00:18-debug: run build task 整理静态模板文件 success in 57 ms √79%
+2025-6-15 18:00:18-debug: cocos-service:(onAfterCompressSettings) start...79%
+2025-6-15 18:00:18-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2025-6-15 18:00:18-debug: Process: heapTotal 251.05MB heapUsed 239.04MB rss 297.70MB
+2025-6-15 18:00:18-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (682ms)
+2025-6-15 18:00:18-debug: cocos-service:(onAfterCompressSettings) in 682 ms81%
+2025-6-15 18:00:19-debug: web-mobile:(onAfterBuild) start...81%
+2025-6-15 18:00:19-debug: // ---- build task web-mobile：onAfterBuild ----
+2025-6-15 18:00:19-debug: Process: heapTotal 251.05MB heapUsed 239.01MB rss 297.70MB
+2025-6-15 18:00:19-debug: // ---- build task web-mobile：onAfterBuild ---- (42ms)
+2025-6-15 18:00:19-debug: web-mobile:(onAfterBuild) in 42 ms82%
+2025-6-15 18:00:19-debug: // ---- build task cocos-service：onAfterBuild ----
+2025-6-15 18:00:19-debug: Process: heapTotal 251.05MB heapUsed 239.33MB rss 298.57MB
+2025-6-15 18:00:19-debug: cocos-service:(onAfterBuild) start...82%
+2025-6-15 18:00:19-debug: // ---- build task cocos-service：onAfterBuild ---- (51ms)
+2025-6-15 18:00:19-debug: cocos-service:(onAfterBuild) in 51 ms83%
+2025-6-15 18:00:19-log: Asset DB is resume!
+2025-6-15 18:00:19-debug: builder:build-project-total (17020ms)
+2025-6-15 18:00:19-debug: build success in 17020 ms!
+2025-6-15 18:00:19-debug: ================================ build Task (web) Finished in (17028)ms ================================

@@ -1,0 +1,617 @@
+2025-6-15 17:11:08 - verbose: Arguments:
+2025-6-15 17:11:09 - verbose:   D:\CocosCreator-v3.7.4-win-060210\CocosCreator.exe: true
+2025-6-15 17:11:09 - verbose:   project: C:\Users\ffgdgrrr\Desktop\rpg
+2025-6-15 17:11:09 - verbose:   can-show-upgrade-dialog: true
+2025-6-15 17:11:09 - verbose:   dev: false
+2025-6-15 17:11:09 - verbose:   home: C:\Users\ffgdgrrr\.CocosCreator
+2025-6-15 17:11:09 - verbose:  
+2025-6-15 17:11:25 - verbose: [Package] menu@1.0.0 enable
+2025-6-15 17:11:25 - verbose: [Package] profile@1.0.0 enable
+2025-6-15 17:11:25 - verbose: [Package] project@1.0.4 enable
+2025-6-15 17:11:25 - verbose: [Package] messages@1.0.0 enable
+2025-6-15 17:11:25 - verbose: [Package] program@1.0.3 enable
+2025-6-15 17:11:25 - verbose: [Package] tester@1.0.0 enable
+2025-6-15 17:11:25 - verbose: [Package] information@1.0.0 enable
+2025-6-15 17:11:25 - verbose: [Package] preferences@1.0.0 enable
+2025-6-15 17:11:31 - log: Load engine in D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine
+2025-6-15 17:11:32 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2025-6-15 17:11:32 - log: Register native engine in D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\native
+2025-6-15 17:11:32 - verbose: [Package] engine@1.0.7 enable
+2025-6-15 17:11:33 - verbose: [Package] programming@1.0.0 enable
+2025-6-15 17:11:33 - verbose: [Package] device@1.0.1 enable
+2025-6-15 17:11:34 - verbose: [Package] ui-kit@1.0.1 enable
+2025-6-15 17:11:34 - verbose: [Package] asset-db@1.0.0 enable
+2025-6-15 17:11:34 - verbose: [Package] scene@1.0.0 enable
+2025-6-15 17:11:35 - verbose: [Package] server@1.0.0 enable
+2025-6-15 17:11:35 - verbose: [Package] utils@1.0.0 enable
+2025-6-15 17:12:00 - verbose: [Package] preview@1.0.1 enable
+2025-6-15 17:12:00 - verbose: [Package] animator@1.0.0 enable
+2025-6-15 17:12:00 - verbose: [Build-plugin] register pkg scene: 1ms
+2025-6-15 17:12:00 - verbose: Builder PluginManager init: 2ms
+2025-6-15 17:12:00 - verbose: [Package] builder@1.3.5 enable
+2025-6-15 17:12:00 - verbose: [Package] shortcuts@1.0.1 enable
+2025-6-15 17:12:00 - verbose: [Package] animation-graph@1.0.0 enable
+2025-6-15 17:12:00 - verbose: [Package] about@1.0.0 enable
+2025-6-15 17:12:01 - verbose: [Package] assets@1.0.0 enable
+2025-6-15 17:12:01 - verbose: [Package] console@1.0.0 enable
+2025-6-15 17:12:01 - verbose: [Package] crash-reporter@1.0.0 enable
+2025-6-15 17:12:02 - verbose: [Package] extension@3.1.1 enable
+2025-6-15 17:12:02 - verbose: [Package] hierarchy@1.0.0 enable
+2025-6-15 17:12:02 - verbose: [Package] inspector@1.0.0 enable
+2025-6-15 17:12:02 - verbose: [Package] light-probe@1.0.4 enable
+2025-6-15 17:12:02 - verbose: [Package] lightmap@1.0.4 enable
+2025-6-15 17:12:02 - verbose: [Package] im-plugin@3.0.12 enable
+2025-6-15 17:12:03 - verbose: [Package] cocos-service@3.0.7 enable
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg cocos-service: 65ms
+2025-6-15 17:12:03 - verbose: [Package] node-library@1.0.1 enable
+2025-6-15 17:12:03 - verbose: [Package] package-asset@1.0.1 enable
+2025-6-15 17:12:03 - verbose: [Package] process@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] reference-image@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] reflection-probe@1.0.4 enable
+2025-6-15 17:12:03 - verbose: [Package] engine-extends@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] alipay-mini-game@1.0.1 enable
+2025-6-15 17:12:03 - verbose: [Package] android@1.0.1 enable
+2025-6-15 17:12:03 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+2025-6-15 17:12:03 - verbose: [Package] certificate@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] channel-upload-tools@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg alipay-mini-game: 241ms
+2025-6-15 17:12:03 - verbose: [Package] fb-instant-games@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] huawei-agc@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg android: 209ms
+2025-6-15 17:12:03 - verbose: [Package] huawei-quick-game@1.0.1 enable
+2025-6-15 17:12:03 - verbose: [Package] ios@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg bytedance-mini-game: 163ms
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg fb-instant-games: 101ms
+2025-6-15 17:12:03 - verbose: [Package] linux@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Package] mac@1.0.0 enable
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg huawei-agc: 110ms
+2025-6-15 17:12:03 - verbose: [Build-plugin] register pkg huawei-quick-game: 101ms
+2025-6-15 17:12:03 - verbose: [Package] native@1.0.2 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg native: 85ms
+2025-6-15 17:12:04 - verbose: [Package] ohos@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg ios: 225ms
+2025-6-15 17:12:04 - verbose: [Package] open-harmonyos@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Package] oppo-mini-game@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg mac: 237ms
+2025-6-15 17:12:04 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Package] taobao-creative-app@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Package] taobao-mini-game@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg oppo-mini-game: 95ms
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg ohos: 147ms
+2025-6-15 17:12:04 - verbose: [Package] vivo-mini-game@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Package] web-desktop@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Package] web-mobile@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg taobao-mini-game: 172ms
+2025-6-15 17:12:04 - verbose: [Package] wechatgame@1.0.2 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg vivo-mini-game: 180ms
+2025-6-15 17:12:04 - verbose: [Package] wechatprogram@1.0.2 enable
+2025-6-15 17:12:04 - verbose: [Package] windows@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg web-mobile: 183ms
+2025-6-15 17:12:04 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg web-desktop: 309ms
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg wechatgame: 243ms
+2025-6-15 17:12:04 - verbose: [Package] build_windows_app@1.0.0 enable
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg windows: 183ms
+2025-6-15 17:12:04 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 108ms
+2025-6-15 17:12:04 - verbose: [Package] placeholder@1.0.0 enable
+2025-6-15 17:12:11 - verbose: asset-db is ready!
+2025-6-15 17:12:12 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+2025-6-15 17:12:12 - info: [Scene] [PHYSICS]: using builtin.
+2025-6-15 17:12:13 - log: [Scene] Cocos Creator v3.7.4
+2025-6-15 17:12:13 - info: [Scene] Forward render pipeline initialized.
+2025-6-15 17:12:13 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:13 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:13 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:13 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:12:13 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+2025-6-15 17:12:15 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:15 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:15 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:12:15 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:13:23 - warn: [Scene] Missing class: e9fc39gUH9MJ6sD/K8d2JFvError: [Scene] Missing class: e9fc39gUH9MJ6sD/K8d2JFv
+    at Object.classFinder (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:2131)
+    at _Deserializer.classFinder [as _classFinder] (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:136163:34)
+    at _Deserializer._deserializeTypeTaggedObject (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51632:30)
+    at _Deserializer._deserializeObject (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51573:29)
+    at _Deserializer._deserializeAndAssignField (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51781:38)
+    at _Deserializer._deserializeArray (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51607:40)
+    at _Deserializer._deserializeObject (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:51579:29)
+2025-6-15 17:13:23 - error: [Scene] Script "e9fc39gUH9MJ6sD/K8d2JFv" attached to "printLog" is missing or invalid. Detailed information:
+Node path: "printLog"
+Script UUID: "e9fc3f60-507f-4c27-ab03-fcaf1dd8916f"
+Class ID: "e9fc39gUH9MJ6sD/K8d2JFv"
+Error: [Scene] Script "e9fc39gUH9MJ6sD/K8d2JFv" attached to "printLog" is missing or invalid. Detailed information:
+Node path: "printLog"
+Script UUID: "e9fc3f60-507f-4c27-ab03-fcaf1dd8916f"
+Class ID: "e9fc39gUH9MJ6sD/K8d2JFv"
+
+    at report (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1156)
+    at reportByWalker (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1252)
+    at D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\missing-class-reporter.ccc:1:1893
+    at ObjectWalkerBehavior.walk (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2355)
+    at ObjectWalkerBehavior.forEach (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:825)
+    at ObjectWalkerBehavior.parseObject (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:306)
+    at doWalkProperties (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\engine\dist\editor-extends\missing-reporter\object-walker.ccc:1:2148)
+2025-6-15 17:13:39 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:13:39 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:13:39 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:13:39 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:14:07 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2025-6-15 17:14:07 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2025-6-15 17:16:58 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:16:58 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:16:58 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:16:58 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:18:00 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:18:00 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:18:00 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:18:00 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:28:34 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:28:34 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:28:34 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:28:34 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:39:29 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/5c/5c4e00f61e0b1a28d41b834aaea279cc9d4597e8.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:39:29 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:39:29 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:39:29 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:43:02 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:43:02 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:43:02 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:43:02 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:45:44 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:45:44 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:45:44 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:45:44 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:50:12 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:50:12 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:50:12 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:50:12 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:19 - verbose: [
+2025-6-15 17:53:20 - verbose: [
+2025-6-15 17:53:20 - verbose: [
+2025-6-15 17:53:20 - verbose: B
+2025-6-15 17:53:24 - warn: [Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.[Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 17:53:24 - warn: [Assets] 'markAsWarning' is deprecated since v3.6.0.[Assets] 'markAsWarning' is deprecated since v3.6.0.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 17:53:24 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 17:53:24 - warn: [Assets] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.[Assets] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)  
+at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)  
+at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)  
+at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+2025-6-15 17:53:25 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+2025-6-15 17:53:25 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+2025-6-15 17:53:42 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts
+[warning][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+  
+at Logger.record (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:458)  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1412)  
+at NewConsole.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:1709)  
+at Socket.<anonymous> (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)
+2025-6-15 17:59:46 - warn: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.Error: [Scene] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:59:46 - warn: [Scene] 'markAsWarning' is deprecated since v3.6.0.Error: [Scene] 'markAsWarning' is deprecated since v3.6.0.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:59:46 - warn: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.Error: [Scene] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)
+    at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)
+    at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)
+    at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+    at postOrderExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:508:21)
+2025-6-15 17:59:46 - warn: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)
+    at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)
+    at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)
+    at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)
+    at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+    at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284641:18)
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: [
+2025-6-15 18:00:00 - verbose: B
+2025-6-15 18:00:02 - warn: [Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.[Assets] 'BaseNode' is deprecated since v3.7.0, please use 'Node' instead.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/59/5929793fc7d0b3e35b5b13e378981a9578c90136.js:44:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 18:00:02 - warn: [Assets] 'markAsWarning' is deprecated since v3.6.0.[Assets] 'markAsWarning' is deprecated since v3.6.0.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175970:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/85/859eced7152c4ebc4f8f5a89b04d10a22b4c51f4.js:30:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 18:00:02 - warn: [Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.[Assets] 'SystemEvent' is deprecated since v3.4.0, please use 'Input' instead.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at _checkObsoleteByName (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175968:7)  
+at __checkObsolete__ (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:175988:7)  
+at Object.execute (file:///C:/Users/ffgdgrrr/Desktop/rpg/temp/programming/packer-driver/targets/editor/chunks/ca/ca04194d1026d1ea7712c85aa21f36a5e10895fd.js:20:7)  
+at doExec (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@editor\lib-programming\static\executor\systemjs-bridge\out\index.js:517:30)
+2025-6-15 18:00:02 - warn: [Assets] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.[Assets] 'questionNodeInteraction.scene' hides inherited property 'interaction.scene'. To make the current property override that implementation, add the `override: true` attribute please.  
+at warn (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:170898:12)  
+at warnID (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:171117:5)  
+at preprocessAttrs (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:285847:11)  
+at declareProperties (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152109:7)  
+at CCClass (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:152146:5)  
+at eval (D:\CocosCreator-v3.7.4-win-060210\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:284170:21)
+2025-6-15 18:00:14 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8/dialogLocal.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/dialog/typeScript/dialog_galgame.ts
+  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1412)  
+at NewConsole.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:1709)  
+at Socket.<anonymous> (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)
+2025-6-15 18:00:14 - warn: [Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+[Assets] [build-script][[Build.Script.Rollup]] Circular dependency: file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/inventory/script/mezi.ts -> file:///C:/Users/ffgdgrrr/Desktop/rpg/assets/tools/%E7%83%B9%E9%A5%AA/canChooseFood.ts
+  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\node_modules\@base\electron-logger\lib\renderer.ccc:1:1260)  
+at Object.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1412)  
+at NewConsole.warn (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\console.ccc:1:1709)  
+at Socket.<anonymous> (D:\CocosCreator-v3.7.4-win-060210\resources\app.asar\builtin\builder\dist\worker\worker-pools\sub-process-manager.ccc:1:3499)  
+at Socket.emit (events.js:315:20)  
+at addChunk (internal/streams/readable.js:309:12)  
+at readableAddChunk (internal/streams/readable.js:284:9)

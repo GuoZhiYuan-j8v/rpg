@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, director, Node, sys } from 'cc';
+import { _decorator, Button, Component, director, game, Node, sys } from 'cc';
 import { KeyCode } from 'cc';
 import ElectronAPI from '../ElectronAPI';
 //import ElectronAPI from '../ElectronAPI';
@@ -16,7 +16,12 @@ export class MenuUIContorl extends Component {
         director.loadScene('setting')
     }
     exit() {
-        ElectronAPI.quit()
+        if (sys.os == sys.OS.ANDROID) {
+            game.end()
+        } else {
+            ElectronAPI.quit()
+        }
+
     }
     read() {
 
