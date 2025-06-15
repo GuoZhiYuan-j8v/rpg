@@ -162,7 +162,7 @@ export class Player extends Component {
     }
     update(deltaTime: number) {
         if (this.node.children[0]) {
-            this.node.children[0].setPosition(0, 84, 0)
+            this.node.children[0].setPosition(0, 169, 0)
         }
         //console.log(this.lnventory)
         this.move(deltaTime)

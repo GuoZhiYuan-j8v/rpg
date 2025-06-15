@@ -225,7 +225,10 @@ export class dialog_galgame extends Component {
 
     }
     endFunc() {
-
+        setTimeout(() => {
+            this.node.active=false
+        });
+        
     }
     Restart() {
         this.readText(this.csv)
@@ -295,7 +298,7 @@ export class dialog_galgame extends Component {
                         // let celll = condition2.split(':')
                         // console.log(celll, condition2)
                         // console.log(sys.localStorage.getItem(celll[0]), celll[1])
-                        if (dialogLocalData.getSysLocalAboutDialogDOM(condition)) {
+                        if (dialogLocalData.getSysLocalAboutDialogDOM(condition.trim())) {
                             button.getComponent(Button).interactable = true
                         } else {
                             button.getComponent(Button).interactable = false
