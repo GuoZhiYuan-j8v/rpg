@@ -1,4 +1,4 @@
-import { _decorator, Component, Label, Toggle } from 'cc';
+import { _decorator, Component, Label, sys, Toggle } from 'cc';
 import ElectronAPI from '../ElectronAPI';
 const { ccclass, property } = _decorator;
 

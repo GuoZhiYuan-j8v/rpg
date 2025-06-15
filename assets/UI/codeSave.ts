@@ -1,4 +1,4 @@
-import { Toggle } from 'cc';
+import { sys, Toggle } from 'cc';
 import { _decorator, Component, Node } from 'cc';
 const { ccclass, property } = _decorator;
 

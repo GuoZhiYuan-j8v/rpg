@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, sys } from 'cc';
 import { interaction, interactionEvent } from '../interaction/interaction';
 import { director } from 'cc';
 import { SceneAsset } from 'cc';

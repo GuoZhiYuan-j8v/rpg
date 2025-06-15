@@ -1,4 +1,4 @@
-import { _decorator, Component, Node } from 'cc';
+import { _decorator, Component, Node, sys } from 'cc';
 import { EventKeyboard } from 'cc';
 import { interaction } from './interaction';
 const { ccclass, property } = _decorator;

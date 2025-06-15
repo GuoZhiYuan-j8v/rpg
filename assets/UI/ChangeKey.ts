@@ -1,4 +1,4 @@
-import { _decorator, Component, EventKeyboard, Input, input, KeyCode, Label, Node, macro, markAsWarning } from 'cc';
+import { _decorator, Component, EventKeyboard, Input, input, KeyCode, Label, Node, macro, markAsWarning, sys } from 'cc';
 const { ccclass, property } = _decorator;
 @ccclass('ChangeKey')
 export class ChangeKey extends Component {

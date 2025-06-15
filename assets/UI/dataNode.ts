@@ -1,4 +1,4 @@
-import { find, instantiate } from 'cc';
+import { find, instantiate, sys } from 'cc';
 import { Label } from 'cc';
 import { director } from 'cc';
 import { Prefab } from 'cc';

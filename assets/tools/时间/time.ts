@@ -1,4 +1,4 @@
-import { director } from 'cc';
+import { director, sys } from 'cc';
 import { Director } from 'cc';
 import { find } from 'cc';
 import { instantiate } from 'cc';

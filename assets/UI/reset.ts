@@ -1,4 +1,4 @@
-import { _decorator, Component, find, Node } from 'cc';
+import { _decorator, Component, find, Node, sys } from 'cc';
 import { ChangeKey } from './ChangeKey';
 import { KeyCode } from 'cc';
 import { back } from './back';

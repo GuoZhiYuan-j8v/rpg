@@ -1,4 +1,4 @@
-import { _decorator, Button, Component, director, Node } from 'cc';
+import { _decorator, Button, Component, director, Node, sys } from 'cc';
 import { KeyCode } from 'cc';
 import ElectronAPI from '../ElectronAPI';
 //import ElectronAPI from '../ElectronAPI';

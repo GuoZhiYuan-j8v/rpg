@@ -42,7 +42,7 @@ export class dialog_galgame extends Component {
     Layout: Layout = null!
     //跳转对话的id
     dialogindex: number = 0
-    dialogRows: string[]=[]
+    dialogRows: string[] = []
     cell: string[];
     index: number;
     jumptext: string = null;
@@ -94,10 +94,10 @@ export class dialog_galgame extends Component {
     onKeyDown(event: EventKeyboard) {
         switch (event.keyCode) {
             case parseInt(sys.localStorage.getItem('next')):
-                if(this.dialogRows.length>0){
+                if (this.dialogRows.length > 0) {
                     this.click()
                 }
-                
+
                 break;
         }
     }
@@ -221,11 +221,11 @@ export class dialog_galgame extends Component {
     }
     //对话选项绑定函数
     DialogueChooseFunc(cell5) {
-        
+
 
     }
     endFunc() {
-        
+
     }
     Restart() {
         this.readText(this.csv)
@@ -238,7 +238,7 @@ export class dialog_galgame extends Component {
 
     }
     DialogueFunc(cell5) {
-       
+
     }
 
     GenerateOption(_index: number) {
@@ -289,17 +289,20 @@ export class dialog_galgame extends Component {
                 button.getComponentInChildren(Label).string = this.cell[3];
                 //语法：“名字”:“值”
                 console.log(typeof condition)
-                if (condition.trim()) {
-                    const condition2 = condition.replace(/[^a-zA-Z0-9 :]/g, '')
-                    // let celll = condition2.split(':')
-                    // console.log(celll, condition2)
-                    // console.log(sys.localStorage.getItem(celll[0]), celll[1])
-                    if (dialogLocalData.getSysLocalAboutDialogDOM(condition2)) {
-                        button.getComponent(Button).interactable = true
-                    } else {
-                        button.getComponent(Button).interactable = false
+                if (condition) {
+                    if (condition.trim()) {
+                     
+                        // let celll = condition2.split(':')
+                        // console.log(celll, condition2)
+                        // console.log(sys.localStorage.getItem(celll[0]), celll[1])
+                        if (dialogLocalData.getSysLocalAboutDialogDOM(condition)) {
+                            button.getComponent(Button).interactable = true
+                        } else {
+                            button.getComponent(Button).interactable = false
+                        }
                     }
                 }
+
                 _index++;
             } else {
                 break;
